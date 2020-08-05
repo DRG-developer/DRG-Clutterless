@@ -1,9 +1,9 @@
 # DRG Clutterless
 DRG Clutterless is a watchface with enough data, without looking ugly:
 <ul>
-  <li> 3 changeable datafields</li>
+  <li> 3 changeable datafields at the top. upto 10 in total. </li>
   <li> the ring arround the screen can be changed to one of the other data fields </li>
-  <li> the stepsring can be canged to another data field (with these two, 5 data fields)</li>
+  <li> the stepsring can be canged to another data field, a graph, a step history, or 4 datafields</li>
   <li> data fields can be:
      <ul>
         <li> Heart rate </li>
@@ -18,6 +18,7 @@ DRG Clutterless is a watchface with enough data, without looking ugly:
      	<li> barometer </li>
      	<li> altimeter </li>
 	<li> battery </li>
+	<li> graph with altimeter, barometer, heartrate or temperature data </li>
 	<li> day and or week distance</li>
      </ul> 
   </li>
