@@ -56,7 +56,7 @@ class graph
 			value = value * (9.0 / 5) + 32; // Convert to Farenheit: ensure floating point division.
 		} 
 		return value;
-	    }
+	   }
     }
     
     function draw(dc) {  	
@@ -190,17 +190,18 @@ class complications {
 	
 	function initialize() {
 		var app = Application.getApp();
-		main = new NathosView();
-		methodRight = main.getField(App.getProperty(""));
-		methodLeft  = main.getField(App.getProperty(""));
-		methodRightBottom = main.getField(App.getProperty(""));
-		methodLeftBottom  = main.getField(App.getProperty(""));
+		main = new ClutterlessView();
+		methodLeft = main.getField(app.getProperty("complicationData1"));
+		methodRight  = main.getField(app.getProperty("complicationData2"));
+		methodLeftBottom = main.getField(app.getProperty("complicationData3"));
+		methodRightBottom  = main.getField(app.getProperty("complicationData4"));
 	}
 	
 	
 	function draw(dc) {
 		if (!init){
 			initialize();
+			init = true;
 		}
 		data = methodRight.invoke();
 		dc.drawText(scrRadius - 30, scrRadius + 25, regfont, data[0], Graphics.TEXT_JUSTIFY_RIGHT);
@@ -271,7 +272,7 @@ class ClutterlessView extends WatchUi.WatchFace
 		var methodLeft       = method(:Steps);
 		var methodCenter     = method(:Battery);
 		var methodRight      = method(:HeartRate);
-		var bottomComplicaton;
+		var bottomComplication;
 		var methodBottomData = method(:Steps);
 		var methodCircle     = method(:Battery);
 		
@@ -311,7 +312,7 @@ class ClutterlessView extends WatchUi.WatchFace
 			methodCenter = getField(app.getProperty("Field2"));
 			methodRight  = getField(app.getProperty("Field3"));
 			bottomComplication = getField(app.getProperty("FieldBottom")) ;
-			methodCirlce = getField(app.getProperty("FieldCircle"));
+			methodCircle = getField(app.getProperty("FieldCircle"));
 			if (app.getProperty("shortdate") == true) {
 			    dayOfWeekArr = [null, "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 			monthOfYearArr   = [null, "Jan", "Feb", "March", "April", "May", "June", "July",
@@ -327,7 +328,7 @@ class ClutterlessView extends WatchUi.WatchFace
 			if (values == -1) {
 				return method(:EmptyF);
 			}
-			if (values > 10) {
+			if (values < 10) {
 				if (values == 0) {
 					if (info has :getHeartRateHistory) {
 						return method(:HeartRate);

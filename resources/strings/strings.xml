@@ -65,6 +65,13 @@
 	<string id="graph">a graph</string>
 	<string id="complications"> 4 datafields</string>
 	<string id="halfmoon"> a half moon shaped progress bar )</string>
+	<string id="stepshistory"> a half moon shaped progress bar )</string>
+	
+	
+	<string id="bottomComplicationData1"> left (if you chose 4 datafields at bottom half)</string>
+	<string id="bottomComplicationData2"> right (if you chose 4 datafields at bottom half)</string>
+	<string id="bottomComplicationData3"> left bottom (if you chose 4 datafields at bottom half)</string>
+	<string id="bottomComplicationData4"> right bottom fields (if you chose 4 datafields at bottom half)</string>
 
 
 	

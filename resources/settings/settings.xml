@@ -168,7 +168,7 @@
 		</settingConfig>
 	</setting>
 	
-	<setting propertyKey="@Properties.fieldCircle" title="@Strings.fieldBottomRight">
+	<setting propertyKey="@Properties.FieldCircle" title="@Strings.fieldBottomRight">
 		<settingConfig type="list">
 			<listEntry value="-1">@Strings.Empty</listEntry>
 			<listEntry value="0">@Strings.HeartRate</listEntry>	
@@ -188,7 +188,7 @@
 		</settingConfig>
 	</setting>
 	
-	<setting propertyKey="@Properties.bottomThing" title="@Strings.Field5">
+	<setting propertyKey="@Properties.FieldBottom" title="@Strings.bottomComplication">
 		<settingConfig type="list">
 			<listEntry value="-1">@Strings.Empty</listEntry>	
 			<listEntry value="14">@Strings.graph</listEntry>	

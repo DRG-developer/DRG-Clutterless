@@ -26,6 +26,6 @@
 	<property id="complicationData4"  type="number">4</property>
 	<property id="graphData"          type="number">5</property>
 	<property id="halfMoonData"       type="number">6</property>
-	<property id="bottomThing"        type="number">7</property>
-	<property id="fieldCircle"        type="number">8</property>
+	<property id="FieldBottom"        type="number">16</property>
+	<property id="FieldCircle"        type="number">4</property>
 </properties>
