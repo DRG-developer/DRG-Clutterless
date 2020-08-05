@@ -1,0 +1,9 @@
+<resources>
+    <fonts>
+        <font id="Hour" antialias="true" filename="fonts/90px-ariel-bold.fnt" filter="0123456789" />
+        <font id="Minute" antialias="true" filename="fonts/90px-ariel.fnt" filter="0123456789" />
+        <font id="Icon" antialias="true" filename="fonts/icons.fnt" filter="abcdefghijkm " />
+        <font id="Weather" antialias="true" filename="fonts/weather.fnt" filter="abcdefghi " />
+        <font id="inheritWeather"  filename="fonts/inheritWeather.fnt" filter=" " />
+    </fonts>
+</resources>

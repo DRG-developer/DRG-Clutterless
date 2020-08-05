@@ -1,0 +1,15 @@
+info face="weathericons" size=23 bold=1 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=23 base=23 scaleW=150 scaleH=70 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="icons_weather.png"
+chars count=11
+
+char id=32    x=0   y=0      width=0     height=0     xoffset=0     yoffset=0    xadvance=0     page=0  chnl=15
+char id=97    x=0   y=0      width=20    height=18    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
+char id=98    x=21  y=0      width=20    height=18    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
+char id=99    x=42  y=0      width=20    height=18    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
+char id=100   x=62  y=0      width=20    height=18    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
+char id=101   x=84  y=0      width=20    height=18    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
+char id=102   x=105 y=0      width=20    height=18    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
+char id=103   x=126 y=0      width=20    height=18    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
+char id=104   x=3   y=20     width=23    height=22    xoffset=0     yoffset=0    xadvance=23    page=0  chnl=15
+char id=105   x=31  y=26     width=14    height=14    xoffset=0     yoffset=0    xadvance=20    page=0  chnl=15
