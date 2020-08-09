@@ -41,6 +41,13 @@
 	
 	<string id="key2">premium activation key </string>
 
+	<string id="timeStyle">what style of time?</string>
+	
+	<string id="timeStyle1"> bold big hour font, small minute font + date</string>
+	<string id="timeStyle2"> bold big hour font, non bold big minute font</string>
+	<string id="timeStyle3"> bold big hour font, bold big minute font </string>
+	<string id="timeStyle4"> bold smaller hour font, small minute + date font </string>
+	<string id="timeStyle5"> bold smaller hour font, same size bold minute font </string>
 	
 	
 	<string id="HeartRate">Current Heartrate</string>
@@ -59,13 +66,16 @@
 	<string id="devicetemp">ondevice temperature</string>
 	<string id="Empty">show nothing</string>
 	<string id="weather">(PREMIUM) weather</string>
-	<string id="battDays">battery in days</string>
+	<string id="Pressure">barometer</string>
 	
 	<string id="bottomComplication">what to show at the bottom half? (config at bottom of page)</string>
 	<string id="graph">a graph</string>
+	<string id="graphData">what data should te graph be?</string>
+	<string id="graphStyle">should te graph be a filled style?</string>
 	<string id="complications"> 4 datafields</string>
 	<string id="halfmoon"> a half moon shaped progress bar )</string>
 	<string id="stepshistory"> a half moon shaped progress bar )</string>
+	<string id="BigFont"> a half moon shaped progress bar )</string>
 	
 	
 	<string id="bottomComplicationData1"> left (if you chose 4 datafields at bottom half)</string>

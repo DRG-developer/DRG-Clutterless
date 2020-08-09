@@ -239,6 +239,16 @@
 		<settingConfig type="boolean"></settingConfig>
 	</setting>
 	
+	<setting propertyKey="@Properties.timeStyle" title="@Strings.timeStyle">
+		<settingConfig type="list">
+			<listEntry value="1">@Strings.timeStyle1</listEntry>
+			<listEntry value="2">@Strings.timeStyle2</listEntry>
+			<listEntry value="3">@Strings.timeStyle3</listEntry>
+			<listEntry value="4">@Strings.timeStyle4</listEntry>
+			<listEntry value="5">@Strings.timeStyle5</listEntry>
+		</settingConfig>
+	</setting>
+	
 	
 	<setting propertyKey="@Properties.complicationData1" title="@Strings.bottomComplicationData1">
 		<settingConfig type="list">
@@ -319,6 +329,20 @@
 			<listEntry value="13">@Strings.weather</listEntry>
 		</settingConfig>
 	</setting>
+	
+	<setting propertyKey="@Properties.graphStyle" title="@Strings.graphStyle"> 
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.graphData" title="@Strings.graphData">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.Altitude</listEntry>	
+			<listEntry value="1">@Strings.Pressure</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>		
+			<listEntry value="13">@Strings.HeartRate</listEntry>
+		</settingConfig>
+	</setting>
+
 
 	
 	

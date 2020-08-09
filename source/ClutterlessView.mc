@@ -14,68 +14,75 @@ using Toybox.ActivityMonitor;
 
 class graph 
 {	
+	var graphStyle;
 	var settings;
-	function get_data_type() {
-    		return 1;
-	}
+	var dataType;
+	var initted = false;
 	
 	function get_data_interator(type) {
 		if (type==1) {
-			if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getHeartRateHistory)) {
-		        return Toybox.SensorHistory.getHeartRateHistory({});
-		    }
-	    } else if (type==2) {
-	    	if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getElevationHistory)) {
-		        return Toybox.SensorHistory.getElevationHistory({});
-		    }
-	    } else if (type==3) {
-	    	if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getPressureHistory)) {
-		        return Toybox.SensorHistory.getPressureHistory({});
-		    }
-	    } else if (type==4) {
-	    	if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getTemperatureHistory)) {
-		        return Toybox.SensorHistory.getTemperatureHistory({});
-		    }
-	    }
-	    return null;
+			if (Toybox.SensorHistory has :getHeartRateHistory) {
+				return Toybox.SensorHistory.getHeartRateHistory({});
+			}
+		} else if (type==2) {
+			if (Toybox.SensorHistory has :getElevationHistory) {
+				return Toybox.SensorHistory.getElevationHistory({});
+			}
+		} else if (type==3) {
+			if (Toybox.SensorHistory has :getPressureHistory) {
+				return Toybox.SensorHistory.getPressureHistory({});
+			}
+		} else if (type==4) {
+			if (Toybox.SensorHistory has :getTemperatureHistory) {
+				return Toybox.SensorHistory.getTemperatureHistory({});
+			}
+		}
+		return null;
 	}
 
-    
+	function init() {
+		dataType = Application.getApp().getProperty("graphData");
+		graphStyle = Application.getApp().getProperty("graphStyle");
+	}
+	
 	function parse_data_value(type, value) {
-	if (type==1) {
-		return value;
-	} else if (type==2) {
-		if (settings.elevationUnits == System.UNIT_STATUTE) {
-			value *= 3.28084;
+		if (type==1) {
+			return value;
+		} else if (type==2) {
+			if (settings.elevationUnits == System.UNIT_STATUTE) {
+				value *= 3.28084;
+			}
+			return value;
+		} else if (type==3) {
+			return value/100.0;
+		} else if (type==4) {
+			if (settings.temperatureUnits == System.UNIT_STATUTE) {
+				value = value * (9.0 / 5) + 32; // Convert to Farenheit: ensure floating point division.
+			} 
+			return value;
 		}
-		return value;
-	} else if (type==3) {
-	    	return value/100.0;
-	} else if (type==4) {
-		if (settings.temperatureUnits == System.UNIT_STATUTE) {
-			value = value * (9.0 / 5) + 32; // Convert to Farenheit: ensure floating point division.
-		} 
-		return value;
-	   }
-    }
+	}
     
-    function draw(dc) {  	
+	function draw(dc) {  
+		if (!initted) {
+			init();
+			initted = true;
+		}	
 	    	settings = Sys.getDeviceSettings();
 	    	
 		var primaryColor = 0xFFFFFF;
-		var position_y = dc.getHeight() * 0.70;
+		var position_y = dc.getHeight() * 0.75;
 		var position_x = dc.getWidth() / 2;
 		var smallDigitalFont = 2;
-		var graph_height = dc.getHeight() * 0.2;
+		var graph_height = dc.getHeight() * 0.15;
 		var graph_width = dc.getWidth() * 0.60;
 	    	
 	    	//Calculation
-	    	var targetdatatype = get_data_type();
-	        var HistoryIter = get_data_interator(targetdatatype);
+	        var HistoryIter = get_data_interator(dataType);
 	        
 	        if (HistoryIter == null) {
 	        	dc.setColor(primaryColor, Graphics.COLOR_TRANSPARENT);
-	        	dc.drawText(position_x, position_y, smallDigitalFont, "--", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+	        	dc.drawText(position_x, position_y, smallDigitalFont, "-", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 	        	return;
 	        }
 	        
@@ -98,7 +105,7 @@ class graph
 	        var height = graph_height;
 	        var HistoryPresent = 0;
 	        
-	        var graphType = 2;
+	        
 	
 		var HistoryNew = 0;
 		var lastyStep = 0;
@@ -144,7 +151,7 @@ class graph
 					if (lastyStep != null){
 						// draw diagram
 						dc.drawLine(position_x + (xStep - graph_width / 2), 
-								((graphType == 1) ? (position_y - (lastyStep - graph_height / 2)) : (dc.getHeight() * 0.83)), 
+								((!graphStyle) ? (position_y - (lastyStep - graph_height / 2)) : (dc.getHeight() * 0.83)), 
 								position_x + (xStep - graph_width / 2), 
 								position_y - (yStep - graph_height / 2));
 					}
@@ -159,30 +166,70 @@ class graph
 	
 		if (HistoryPresent == null) {
 			dc.drawText(position_x, 
-				position_y + (position==1?(graph_height/2 + 10):(-graph_height/2-16)), 
+				position_y +  (graph_height / 2 + 10), 
 				smallDigitalFont, 
 				"-", 
 				Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 			return;
 		}
-		var value_label = parse_data_value(targetdatatype, HistoryPresent);
+		var value_label = parse_data_value(dataType, HistoryPresent);
 		var labelll = value_label.format("%d");
 						
 		settings = null;
-    }
+	}
 
 }
 
 class halfMoon {
-	function draw(dc) {
-		
+	var initted = false;
+	var main;
+	var scrRadius;
+	var scrWidth;
+	var factory;
+	function init(dc) {
+		main = new ClutterlessView();
+		factory = new datafactory();
+		scrRadius = dc.getWidth() / 2;
+		scrWidth = scrRadius * 2;
 	}
+	function draw(dc) {
+		if (!initted) {
+			init(dc);
+			initted = true;
+		}
+		var data;
+		factory.prepare();
+		data = factory.Steps();
+		data[0] = data[0].toNumber();
+		data[3] = data[3].toNumber();
+		
+	
+		
+		var perc = data[0].toFloat() / data[3];
+		
+		dc.setColor(0xFFFFFF, -1);
+		for (var i = 0; i < 6; i++) {
+			dc.drawArc(scrRadius, scrRadius, (scrRadius * 0.85 ) - i, 0, 205, 335);
+		}
+		dc.setColor(0x555555, -1);
+		
+		
+		for (var i = 0; i < 6; i++) {
+			dc.drawArc(scrRadius, scrRadius, (scrRadius * 0.85 ) - i, 0, 205, ((perc > 1) ? (335) : ((130 * perc) +  206 )));
+		}
+		
+		dc.setColor(main.colBG, -1);
+		dc.fillRectangle (25, scrWidth * 0.67, scrWidth - 50, 8);
+	}
+	
+	
 
 }
 
 class complications {
 	var init = false;
 	var main;
+	var factory;
 	var methodRight = 1; 
 	var methodLeft = 1;
 	var methodRightBottom = 1;
@@ -191,10 +238,7 @@ class complications {
 	function initialize() {
 		var app = Application.getApp();
 		main = new ClutterlessView();
-		methodLeft = main.getField(app.getProperty("complicationData1"));
-		methodRight  = main.getField(app.getProperty("complicationData2"));
-		methodLeftBottom = main.getField(app.getProperty("complicationData3"));
-		methodRightBottom  = main.getField(app.getProperty("complicationData4"));
+		factory = new datafactory();
 	}
 	
 	
@@ -203,7 +247,12 @@ class complications {
 			initialize();
 			init = true;
 		}
-		data = methodRight.invoke();
+		
+		var scrRadius = dc.getWidth() / 2;
+		var regfont = main.regfont;
+		var iconfont = main.iconfont;
+		var weatherfont = main.weatherfont;
+		var data = methodRight.invoke();
 		dc.drawText(scrRadius - 30, scrRadius + 25, regfont, data[0], Graphics.TEXT_JUSTIFY_RIGHT);
 		dc.drawText(scrRadius - 5, scrRadius + 32, iconfont, data[1], Graphics.TEXT_JUSTIFY_RIGHT);	
 		dc.drawText(scrRadius - 5, scrRadius + 32, weatherfont, data[2], Graphics.TEXT_JUSTIFY_RIGHT);	
@@ -231,26 +280,29 @@ class complications {
 		
 			
 	}
-	
-
 }
-
+class empty {
+	function draw(dc) {
+		return;
+	}
+}
 
 class ClutterlessView extends WatchUi.WatchFace
 {
+		var factory;
 		var colBG  	 = 0x000000;
 		var colDATE 	 = 0x555555;
 		var colHOUR 	 = 0xFFFFFF;
 		var colMIN 	 = 0x555555;
 		var colLINE 	 = 0x555555;
 		var colDatafield = 0x555555;
-		var info, settings, value, BtInd, zeroformat;
+		var settings, info, value, BtInd, zeroformat;
 		var barX, barWidth;
 		var iconfont;
 		var twlveclock = false;
 		var showdate = true;
 		var BattStats;
-		var manualLocX, manualLocY;
+		var timeStyle = 0;
 		/* ICONS MAPPER*/
 		
 		
@@ -269,12 +321,12 @@ class ClutterlessView extends WatchUi.WatchFace
 		 * */
 		
 		
-		var methodLeft       = method(:Steps);
-		var methodCenter     = method(:Battery);
-		var methodRight      = method(:HeartRate);
-		var bottomComplication;
-		var methodBottomData = method(:Steps);
-		var methodCircle     = method(:Battery);
+		var methodLeft       = factory.method(:Steps);
+		var methodCenter     = factory.method(:Battery);
+		var methodRight      = factory.method(:HeartRate);
+		var bottomComplication = new graph();
+		var methodBottomData = factory.method(:Steps);
+		var methodCircle     = factory.method(:Battery);
 		
 		var dayOfWeekArr     = [null, "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 		var monthOfYearArr   = [null, "January", "February", "March", "April", "May", "June", "July",
@@ -296,7 +348,6 @@ class ClutterlessView extends WatchUi.WatchFace
 		}
 		
 		function getSettings(){
-			info = ActivityMonitor.getInfo();
 			var app = Application.getApp();
 			colLINE = app.getProperty("colLine");
 			colHOUR = app.getProperty("colHour");
@@ -308,19 +359,27 @@ class ClutterlessView extends WatchUi.WatchFace
 			showdate     = app.getProperty("showdate");
 			BtInd        = app.getProperty("BtIndicator");
 			zeroformat   = app.getProperty("zeroformat");
-			methodLeft   = getField(app.getProperty("Field1"));
-			methodCenter = getField(app.getProperty("Field2"));
-			methodRight  = getField(app.getProperty("Field3"));
-			bottomComplication = getField(app.getProperty("FieldBottom")) ;
-			methodCircle = getField(app.getProperty("FieldCircle"));
-			if (app.getProperty("shortdate") == true) {
-			    dayOfWeekArr = [null, "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-			monthOfYearArr   = [null, "Jan", "Feb", "March", "April", "May", "June", "July",
-						  "Aug", "Sep", "Oct", "Nov", "Dec"];
-			}
-
-			app = null;
+			timeStyle    = app.getProperty("timeStyle");
 			
+			  
+			
+			if (timeStyle == 1) {
+				hourfont = WatchUi.loadResource(Rez.Fonts.timeBig);
+				minutefont = 15;
+			} else if (timeStyle == 2) {
+				minutefont = WatchUi.loadResource(Rez.Fonts.timeBigSleek);
+				hourfont = WatchUi.loadResource(Rez.Fonts.timeBig);
+			} else if (timeStyle == 3){
+		 		minutefont = null;
+				hourfont = WatchUi.loadResource(Rez.Fonts.timeBig);
+			} else if (timeStyle == 4){
+				hourfont = WatchUi.loadResource(Rez.Fonts.time);
+				minutefont = 14;
+			} else {
+				hourfont = WatchUi.loadResource(Rez.Fonts.time);
+
+			}
+						
 		}
 		
 		function getField(values){
@@ -331,7 +390,7 @@ class ClutterlessView extends WatchUi.WatchFace
 			if (values < 10) {
 				if (values == 0) {
 					if (info has :getHeartRateHistory) {
-						return method(:HeartRate);
+						return factory.method(:HeartRate);
 					} else {
 						return method(:Invalid);
 					}
@@ -350,17 +409,17 @@ class ClutterlessView extends WatchUi.WatchFace
 					
 				} else if (values == 4){
 					return method(:Battery);
-					
+						
 				} else if (values == 5){
 					if (info has :floorsClimbed) {
 						return method(:Stairs);
 					} else {
 						return method(:Invalid);
 					}
-					
+						
 				} else if (values == 6){
 					return method(:Messages);
-					
+						
 				} else if (values == 7){
 					return method(:Alarmcount);
 				} else if (values == 8){
@@ -372,7 +431,7 @@ class ClutterlessView extends WatchUi.WatchFace
 						return method(:Invalid);
 					}
 				} 
-			}else {
+			} else {
 				if (values == 10){
 					if (info has :activeMinutesWeek){
 						return method(:ActiveMinutesWeek);
@@ -394,13 +453,17 @@ class ClutterlessView extends WatchUi.WatchFace
 							weatherfont = WatchUi.loadResource(Rez.Fonts.Weather);
 							Background.registerForTemporalEvent(new Time.Duration(Application.getApp().getProperty("updateFreq") * 60));
 							return method(:Weather);
-							
+								
 						} else {
 							return method(:Premium);
 						}
 					}
 				} else if (values == 14) {
-					return new graph();
+					if (Toybox has :SensorHistory){
+						return new graph();
+					} else {
+						return new empty();
+					}
 				} else if (values == 15) {
 					return new halfMoon();
 				} else if (values == 16) {
@@ -410,8 +473,11 @@ class ClutterlessView extends WatchUi.WatchFace
 				}
 			}
 		}
+	
+		
 		
 		function onLayout(dc){
+			factory = new datafactory();
 			if ((Toybox.System has :ServiceDelegate)) {
 				Background.deleteTemporalEvent();
 			}
@@ -420,40 +486,34 @@ class ClutterlessView extends WatchUi.WatchFace
 			scrHeight = dc.getHeight();
 			scrRadius = scrWidth / 2;
 			
-	
+			iconfont = WatchUi.loadResource(Rez.Fonts.Icon);
 			if (scrHeight < 209) {
 					regfont = Graphics.FONT_MEDIUM;
-			}
+			} 
 			
-			iconfont = WatchUi.loadResource(Rez.Fonts.Icon);
-			hourfont = WatchUi.loadResource(Rez.Fonts.Hour);
+			
+			
 		}
 		
 		function onUpdate(dc){
 			dc.setColor(0, colBG);
-			dc.clear();		
-			info     = ActivityMonitor.getInfo();
-			settings = Sys.getDeviceSettings();
-			
-			
-			if(showdate == true){
-				testdate(dc);
-			}
-
+			dc.clear();
 		
 	
 			drawTime(dc);
+		
 			dc.setColor(colDatafield, -1);
 			if(BtInd && settings.phoneConnected){
-				dc.drawText(scrRadius, 15, iconfont, "h", Graphics.TEXT_JUSTIFY_CENTER);
+				dc.drawText(scrHeight * 0.08, scrRadius + 5, iconfont, "h", Graphics.TEXT_JUSTIFY_CENTER|4);
 			}
 			
+			
+			factory.prepare();
 			drawComplication1(dc);
 			drawComplication2(dc);
 			drawComplication3(dc);
 			drawCircle(dc);
-			testdate(dc);
-			bottomComplication.draw(dc);
+			factory.bottomComplication.draw(dc);
 		}
 		
 		
@@ -502,38 +562,26 @@ class ClutterlessView extends WatchUi.WatchFace
 			if (zeroformat ){
 				tmp = tmp.format("%02d");
 			}
-			dc.drawText(scrRadius -2, scrRadius * 0.75, hourfont, tmp, Graphics.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(scrRadius -2, scrRadius , hourfont, tmp, Graphics.TEXT_JUSTIFY_RIGHT|4);
 			dc.setColor(colMIN, -1);
-			dc.drawText(scrRadius + 10, scrRadius * 0.77, 14, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
-		}
-		
-		function testdate(dc) {
-			dc.drawText(scrRadius + 10, scrRadius * 1.07, 1, "Aug 1", Graphics.TEXT_JUSTIFY_LEFT);
-		}
-		
-	
-		
-		
-		function Authorize() {
-		//yes, in theory you could modify this code to always return true, and get the premium features. 
-		// if you're going to do that, just realize that i provide everything except weather free of charge,
-		// even the source code. a small donation would be appreciated...
-		
-			var tmpString = Application.getApp().getProperty("keys");
-			if (!tmpString) {return false;}
-			if (tmpString.hashCode() == null) {return false;}
-			 
-			
-			if (tmpString.hashCode()  == -1258539636) {
-				return true;
-			} else if (tmpString.hashCode() == -55185590){
-				return true;
+			if ( timeStyle == 1 || timeStyle == 4) {
+				dc.drawText(scrRadius + 10, scrRadius * 0.91, minutefont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
+				
+				dc.drawText(scrRadius + 10, scrHeight * 0.52, 1, time.month + " " + time.day, Graphics.TEXT_JUSTIFY_LEFT);
+			} else if (timeStyle == 2) {
+				dc.drawText(scrRadius + 2, scrRadius , minutefont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
+
+			} else  if (timeStyle == 3) {
+				dc.drawText(scrRadius + 2, scrRadius , hourfont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
 			} else {
-				return false;
-			}	
+				dc.drawText(scrRadius + 2, scrRadius , hourfont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
+
+			}
 		}
 		
-	
+		
+} 
+
 	
 	////////////////////////////
 	/////     DATAFIELDS   /////
@@ -543,6 +591,41 @@ class ClutterlessView extends WatchUi.WatchFace
 	/////     THIS         /////
 	/////     PART         /////
 	////////////////////////////
+
+class datafactory {
+	var info, settings, value;
+
+
+	
+	function prepare() {
+		info = ActivityMonitor.getInfo();
+		settings = Sys.getDeviceSettings();
+	}
+	
+	function Authorize() {
+	//yes, in theory you could modify this code to always return true, and get the premium features. 
+	// if you're going to do that, just realize that i provide everything except weather free of charge,
+	// even the source code. a small donation would be appreciated...
+		
+		var tmpString = Application.getApp().getProperty("keys");
+		if (!tmpString) {
+			return false;
+		} 
+		
+		if (tmpString.hashCode() == null) {
+			return false;
+		}
+			 
+			
+		if (tmpString.hashCode()  == -1258539636) {
+			return true;
+		} else if (tmpString.hashCode() == -55185590){
+			return true;
+		} else {
+			return false;
+		}	
+	}
+	
 	
 		
 	function HeartRate(){
@@ -560,7 +643,7 @@ class ClutterlessView extends WatchUi.WatchFace
 	
 	
 	function Steps(){
-		return [info.steps , "c", "", info.stepGoal];
+		return [ info.steps, "c", "", info.stepGoal];
 	}
 	
 
@@ -629,7 +712,7 @@ class ClutterlessView extends WatchUi.WatchFace
 	}
 	
 	function DistanceWeek(){
-		
+		return ["", "", "", ""];
 	}
 	
 	function DistanceDay(){
@@ -699,11 +782,11 @@ class ClutterlessView extends WatchUi.WatchFace
 	}
 	
 
-	function Invalid (){
+	function Invalid(){
 		return ["-", "", ""];
 	}
 	
-	function Premium (){
+	function Premium() {
 		return ["activate", "", ""];
 	}
 	

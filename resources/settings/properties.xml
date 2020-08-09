@@ -15,7 +15,7 @@
 	<property id="Field3"     	  type="number">0</property>
 	<property id="Field4"   	  type="number">3</property>
 	<property id="Field5"     	  type="number">4</property>
-	<property id="BtIndicator"  	  type="boolean">false</property>
+	<property id="BtIndicator"  	  type="boolean">true</property>
 	<property id="zeroformat"    	  type="boolean">true</property>
 	<property id="venuAlwaysOn" 	  type="boolean">true</property>
 	<property id="keys"  		  type="string">empty</property>
@@ -24,8 +24,10 @@
 	<property id="complicationData2"  type="number">2</property>
 	<property id="complicationData3"  type="number">3</property>
 	<property id="complicationData4"  type="number">4</property>
-	<property id="graphData"          type="number">5</property>
+	<property id="graphData"          type="number">4</property>
+	<property id="graphStyle"         type="boolean">false</property>
 	<property id="halfMoonData"       type="number">6</property>
-	<property id="FieldBottom"        type="number">16</property>
+	<property id="FieldBottom"        type="number">15</property>
 	<property id="FieldCircle"        type="number">4</property>
+	<property id="timeStyle"          type="number">5</property>
 </properties>
