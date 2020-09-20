@@ -1,451 +1,444 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="3" lineNum="18" pc="268436682" symbol="get_data_type"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="3" lineNum="19" pc="268436686" symbol="get_data_type"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="22" pc="268436693" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="23" pc="268436697" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="24" pc="268436708" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="25" pc="268436741" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="3" lineNum="20" pc="268436682" symbol="init"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="3" lineNum="21" pc="268436686" symbol="init"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="3" lineNum="22" pc="268436703" symbol="init"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="3" lineNum="23" pc="268436727" symbol="init"/>
 <entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="26" pc="268436752" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="27" pc="268436785" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="28" pc="268436796" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="29" pc="268436829" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="30" pc="268436840" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="32" pc="268436873" symbol="get_data_interator"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="36" pc="268436876" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="37" pc="268436880" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="38" pc="268436891" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="39" pc="268436897" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="40" pc="268436908" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="41" pc="268436940" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="43" pc="268436953" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="44" pc="268436959" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="45" pc="268436970" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="46" pc="268436982" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="47" pc="268436993" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="48" pc="268437025" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="50" pc="268437044" symbol="parse_data_value"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="54" pc="268437051" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="55" pc="268437055" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="57" pc="268437078" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="58" pc="268437085" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="59" pc="268437104" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="60" pc="268437123" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="61" pc="268437130" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="62" pc="268437149" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="65" pc="268437168" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="67" pc="268437186" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="68" pc="268437193" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="69" pc="268437219" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="70" pc="268437267" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="73" pc="268437271" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="74" pc="268437284" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="76" pc="268437297" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="77" pc="268437314" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="78" pc="268437340" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="79" pc="268437388" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="86" pc="268437392" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="88" pc="268437408" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="89" pc="268437412" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="90" pc="268437416" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="92" pc="268437423" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="94" pc="268437430" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="95" pc="268437437" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="96" pc="268437444" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="97" pc="268437451" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="99" pc="268437458" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="100" pc="268437471" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="101" pc="268437478" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="102" pc="268437488" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="104" pc="268437495" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="105" pc="268437505" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="106" pc="268437512" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="107" pc="268437529" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="108" pc="268437552" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="110" pc="268437559" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="114" pc="268437565" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="115" pc="268437582" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="118" pc="268437608" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="119" pc="268437623" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="121" pc="268437636" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="122" pc="268437643" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="123" pc="268437653" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="124" pc="268437661" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="125" pc="268437668" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="126" pc="268437676" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="128" pc="268437683" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="130" pc="268437690" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="131" pc="268437700" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="132" pc="268437707" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="133" pc="268437724" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="135" pc="268437747" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="137" pc="268437754" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="142" pc="268437856" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="145" pc="268437866" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="149" pc="268437889" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="151" pc="268437915" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="152" pc="268437922" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="157" pc="268438025" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="159" pc="268438029" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="160" pc="268438049" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="162" pc="268438067" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="8" lineNum="168" pc="268438080" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="182" pc="268438088" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="183" pc="268438092" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="184" pc="268438109" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="185" pc="268438139" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="186" pc="268438180" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="187" pc="268438221" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="188" pc="268438262" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="192" pc="268438304" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="193" pc="268438308" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="194" pc="268438320" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="196" pc="268438335" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="197" pc="268438360" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="198" pc="268438434" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="199" pc="268438508" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="203" pc="268438582" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="204" pc="268438607" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="205" pc="268438681" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="206" pc="268438755" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="210" pc="268438829" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="211" pc="268438854" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="212" pc="268438928" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="213" pc="268439002" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="217" pc="268439076" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="218" pc="268439101" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="219" pc="268439175" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="220" pc="268439249" symbol="draw"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="13" lineNum="284" pc="268439324" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="13" lineNum="285" pc="268439328" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="289" pc="268439347" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="290" pc="268439351" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="291" pc="268439374" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="292" pc="268439391" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="293" pc="268439415" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="294" pc="268439439" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="295" pc="268439463" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="296" pc="268439487" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="297" pc="268439511" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="298" pc="268439535" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="299" pc="268439559" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="300" pc="268439583" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="301" pc="268439607" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="302" pc="268439631" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="303" pc="268439666" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="304" pc="268439701" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="305" pc="268439736" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="306" pc="268439771" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="307" pc="268439806" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="308" pc="268439828" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="309" pc="268439942" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="313" pc="268440124" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="317" pc="268440148" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="318" pc="268440165" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="319" pc="268440208" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="320" pc="268440224" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="321" pc="268440241" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="322" pc="268440284" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="323" pc="268440330" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="324" pc="268440347" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="325" pc="268440356" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="326" pc="268440402" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="327" pc="268440419" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="328" pc="268440462" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="330" pc="268440478" symbol="getSettings"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="337" pc="268440522" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="339" pc="268440526" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="340" pc="268440537" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="342" pc="268440557" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="343" pc="268440568" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="344" pc="268440579" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="345" pc="268440596" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="347" pc="268440616" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="349" pc="268440636" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="350" pc="268440647" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="352" pc="268440667" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="353" pc="268440678" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="355" pc="268440698" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="356" pc="268440709" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="357" pc="268440752" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="359" pc="268440772" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="362" pc="268440792" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="363" pc="268440803" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="365" pc="268440823" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="366" pc="268440834" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="367" pc="268440851" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="369" pc="268440871" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="372" pc="268440891" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="373" pc="268440902" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="375" pc="268440922" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="376" pc="268440933" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="377" pc="268440953" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="378" pc="268440964" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="379" pc="268440984" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="380" pc="268440995" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="381" pc="268441012" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="383" pc="268441032" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="387" pc="268441055" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="388" pc="268441066" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="389" pc="268441083" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="391" pc="268441103" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="393" pc="268441123" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="394" pc="268441134" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="395" pc="268441154" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="396" pc="268441165" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="397" pc="268441208" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="399" pc="268441228" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="401" pc="268441248" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="402" pc="268441259" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="403" pc="268441282" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="405" pc="268441299" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="406" pc="268441342" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="407" pc="268441419" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="410" pc="268441439" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="413" pc="268441462" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="414" pc="268441473" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="415" pc="268441499" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="416" pc="268441510" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="417" pc="268441536" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="418" pc="268441547" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="420" pc="268441573" symbol="getField"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="425" pc="268441591" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="426" pc="268441595" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="427" pc="268441618" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="429" pc="268441637" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="430" pc="268441649" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="431" pc="268441668" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="432" pc="268441687" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="435" pc="268441709" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="436" pc="268441726" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="439" pc="268441749" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="440" pc="268441792" symbol="onLayout"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="443" pc="268441836" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="444" pc="268441840" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="445" pc="268441865" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="446" pc="268441877" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="447" pc="268441900" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="450" pc="268441923" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="451" pc="268441937" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="456" pc="268441954" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="457" pc="268441968" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="458" pc="268441993" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="459" pc="268442024" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="462" pc="268442098" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="463" pc="268442112" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="464" pc="268442126" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="465" pc="268442140" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="466" pc="268442154" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="467" pc="268442168" symbol="onUpdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="472" pc="268442189" symbol="drawComplication1"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="473" pc="268442193" symbol="drawComplication1"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="474" pc="268442212" symbol="drawComplication1"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="475" pc="268442271" symbol="drawComplication1"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="476" pc="268442330" symbol="drawComplication1"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="479" pc="268442390" symbol="drawComplication2"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="480" pc="268442394" symbol="drawComplication2"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="481" pc="268442413" symbol="drawComplication2"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="482" pc="268442466" symbol="drawComplication2"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="483" pc="268442519" symbol="drawComplication2"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="486" pc="268442573" symbol="drawComplication3"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="487" pc="268442577" symbol="drawComplication3"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="488" pc="268442596" symbol="drawComplication3"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="489" pc="268442655" symbol="drawComplication3"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="490" pc="268442714" symbol="drawComplication3"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="495" pc="268442774" symbol="drawCircle"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="496" pc="268442778" symbol="drawCircle"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="498" pc="268442797" symbol="drawCircle"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="499" pc="268442825" symbol="drawCircle"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="500" pc="268442843" symbol="drawCircle"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="509" pc="268442920" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="510" pc="268442924" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="512" pc="268442924" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="513" pc="268442968" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="514" pc="268442993" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="515" pc="268443062" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="516" pc="268443073" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="518" pc="268443094" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="519" pc="268443156" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="520" pc="268443181" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="521" pc="268443218" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="523" pc="268443306" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="524" pc="268443389" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="525" pc="268443406" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="527" pc="268443491" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="528" pc="268443508" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="530" pc="268443593" symbol="drawTime"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="535" pc="268443676" symbol="testdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="536" pc="268443680" symbol="testdate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="542" pc="268443743" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="547" pc="268443747" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="548" pc="268443778" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="548" pc="268443784" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="549" pc="268443790" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="549" pc="268443806" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="552" pc="268443812" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="553" pc="268443832" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="554" pc="268443838" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="555" pc="268443858" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="557" pc="268443864" symbol="Authorize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="25" lineNum="573" pc="268443868" symbol="HeartRate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="25" lineNum="574" pc="268443872" symbol="HeartRate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="25" lineNum="575" pc="268443901" symbol="HeartRate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="25" lineNum="576" pc="268443914" symbol="HeartRate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="25" lineNum="578" pc="268443962" symbol="HeartRate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="26" lineNum="582" pc="268444012" symbol="Calories"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="26" lineNum="583" pc="268444016" symbol="Calories"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="587" pc="268444072" symbol="Steps"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="588" pc="268444076" symbol="Steps"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="592" pc="268444154" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="593" pc="268444158" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="594" pc="268444181" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="595" pc="268444188" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="596" pc="268444257" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="597" pc="268444280" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="601" pc="268444296" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="603" pc="268444303" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="605" pc="268444338" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="609" pc="268444351" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="612" pc="268444358" symbol="Altitude"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="29" lineNum="616" pc="268444411" symbol="Messages"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="29" lineNum="617" pc="268444415" symbol="Messages"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="30" lineNum="621" pc="268444471" symbol="Stairs"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="30" lineNum="622" pc="268444475" symbol="Stairs"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="31" lineNum="626" pc="268444553" symbol="Alarmcount"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="31" lineNum="627" pc="268444557" symbol="Alarmcount"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="32" lineNum="632" pc="268444613" symbol="PhoneConn"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="32" lineNum="634" pc="268444617" symbol="PhoneConn"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="32" lineNum="635" pc="268444634" symbol="PhoneConn"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="32" lineNum="637" pc="268444683" symbol="PhoneConn"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="33" lineNum="642" pc="268444730" symbol="ActiveMinutesDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="33" lineNum="643" pc="268444734" symbol="ActiveMinutesDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="34" lineNum="647" pc="268444805" symbol="ActiveMinutesWeek"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="34" lineNum="648" pc="268444809" symbol="ActiveMinutesWeek"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="35" lineNum="652" pc="268444902" symbol="Battery"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="35" lineNum="653" pc="268444906" symbol="Battery"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="656" pc="268445012" symbol="DistanceWeek"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="660" pc="268445017" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="661" pc="268445021" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="662" pc="268445021" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="663" pc="268445052" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="664" pc="268445065" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="666" pc="268445081" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="669" pc="268445100" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="670" pc="268445132" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="672" pc="268445142" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="673" pc="268445161" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="676" pc="268445168" symbol="DistanceDay"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="679" pc="268445244" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="680" pc="268445248" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="681" pc="268445283" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="682" pc="268445318" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="683" pc="268445350" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="685" pc="268445387" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="688" pc="268445409" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="690" pc="268445485" symbol="DeviceTemp"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="693" pc="268445519" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="694" pc="268445523" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="695" pc="268445546" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="697" pc="268445563" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="698" pc="268445570" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="699" pc="268445583" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="700" pc="268445617" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="702" pc="268445654" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="703" pc="268445677" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="704" pc="268445684" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="705" pc="268445697" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="706" pc="268445731" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="711" pc="268445768" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="712" pc="268445786" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="713" pc="268445793" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="717" pc="268445842" symbol="Weather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="40" lineNum="722" pc="268445910" symbol="EmptyF"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="40" lineNum="723" pc="268445914" symbol="EmptyF"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="41" lineNum="727" pc="268445961" symbol="Invalid"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="41" lineNum="728" pc="268445965" symbol="Invalid"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="42" lineNum="731" pc="268446025" symbol="Premium"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="42" lineNum="732" pc="268446029" symbol="Premium"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="44" lineNum="11" pc="268435456" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="44" lineNum="12" pc="268435460" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="44" lineNum="13" pc="268435482" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="44" lineNum="14" pc="268435521" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="45" lineNum="18" pc="268435538" symbol="onTemporalEvent"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="45" lineNum="20" pc="268435542" symbol="onTemporalEvent"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="24" pc="268435555" symbol="getWeather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="25" pc="268435559" symbol="getWeather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="27" pc="268435559" symbol="getWeather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="28" pc="268435590" symbol="getWeather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="31" pc="268435621" symbol="getWeather"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="47" lineNum="61" pc="268435796" symbol="onReceiveWeatherdata"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="47" lineNum="62" pc="268435800" symbol="onReceiveWeatherdata"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="47" lineNum="63" pc="268435811" symbol="onReceiveWeatherdata"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="47" lineNum="64" pc="268435829" symbol="onReceiveWeatherdata"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="47" lineNum="66" pc="268435864" symbol="onReceiveWeatherdata"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="47" lineNum="77" pc="268436106" symbol="onReceiveWeatherdata"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="47" lineNum="86" pc="268436265" symbol="onReceiveWeatherdata"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="49" lineNum="13" pc="268436308" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="49" lineNum="14" pc="268436312" symbol="initialize"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="50" lineNum="17" pc="268436331" symbol="onStart"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="51" lineNum="20" pc="268436336" symbol="onStop"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="24" pc="268436341" symbol="getInitialView"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="25" pc="268436345" symbol="getInitialView"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="26" pc="268436375" symbol="getInitialView"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="27" pc="268436391" symbol="getInitialView"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="31" pc="268436415" symbol="onSettingsChanged"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="32" pc="268436419" symbol="onSettingsChanged"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="33" pc="268436437" symbol="onSettingsChanged"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="34" pc="268436453" symbol="onSettingsChanged"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="37" pc="268436455" symbol="onBackgroundData"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="39" pc="268436459" symbol="onBackgroundData"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="40" pc="268436476" symbol="onBackgroundData"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="41" pc="268436514" symbol="onBackgroundData"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="42" pc="268436530" symbol="onBackgroundData"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="43" pc="268436547" symbol="onBackgroundData"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="45" pc="268436569" symbol="onBackgroundData"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="55" lineNum="49" pc="268436601" symbol="getServiceDelegate"/>
-<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="55" lineNum="50" pc="268436605" symbol="getServiceDelegate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="27" pc="268436756" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="28" pc="268436767" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="29" pc="268436800" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="30" pc="268436811" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="31" pc="268436844" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="32" pc="268436855" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="33" pc="268436888" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="34" pc="268436899" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="4" lineNum="36" pc="268436932" symbol="get_data_interator"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="40" pc="268436935" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="41" pc="268436939" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="42" pc="268436950" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="43" pc="268436956" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="44" pc="268436967" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="45" pc="268436999" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="47" pc="268437012" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="48" pc="268437018" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="49" pc="268437029" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="50" pc="268437041" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="51" pc="268437052" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="52" pc="268437084" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="5" lineNum="54" pc="268437103" symbol="parse_data_value"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="58" pc="268437110" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="59" pc="268437114" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="61" pc="268437137" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="62" pc="268437144" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="63" pc="268437163" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="64" pc="268437182" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="65" pc="268437189" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="66" pc="268437208" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="68" pc="268437227" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="70" pc="268437245" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="71" pc="268437252" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="72" pc="268437278" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="73" pc="268437326" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="76" pc="268437330" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="77" pc="268437343" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="79" pc="268437356" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="80" pc="268437373" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="81" pc="268437399" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="82" pc="268437447" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="85" pc="268437451" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="87" pc="268437467" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="88" pc="268437471" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="89" pc="268437475" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="91" pc="268437482" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="93" pc="268437489" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="94" pc="268437496" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="95" pc="268437503" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="96" pc="268437510" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="98" pc="268437517" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="99" pc="268437530" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="100" pc="268437537" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="101" pc="268437547" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="103" pc="268437554" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="104" pc="268437564" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="105" pc="268437571" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="106" pc="268437588" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="107" pc="268437611" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="109" pc="268437618" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="113" pc="268437624" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="114" pc="268437641" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="117" pc="268437667" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="118" pc="268437682" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="120" pc="268437695" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="121" pc="268437702" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="122" pc="268437712" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="123" pc="268437720" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="124" pc="268437727" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="125" pc="268437735" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="127" pc="268437742" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="129" pc="268437749" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="130" pc="268437759" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="131" pc="268437766" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="132" pc="268437783" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="134" pc="268437806" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="136" pc="268437813" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="141" pc="268437915" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="144" pc="268437925" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="148" pc="268437948" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="150" pc="268437974" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="151" pc="268437981" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="156" pc="268438084" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="158" pc="268438088" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="159" pc="268438108" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="6" lineNum="161" pc="268438126" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="8" lineNum="167" pc="268438139" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="181" pc="268438147" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="182" pc="268438151" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="183" pc="268438168" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="184" pc="268438198" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="185" pc="268438239" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="186" pc="268438280" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="10" lineNum="187" pc="268438321" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="191" pc="268438363" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="193" pc="268438367" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="194" pc="268438392" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="195" pc="268438466" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="196" pc="268438540" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="200" pc="268438614" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="201" pc="268438639" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="202" pc="268438713" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="203" pc="268438787" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="207" pc="268438861" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="208" pc="268438886" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="209" pc="268438960" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="210" pc="268439034" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="214" pc="268439108" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="215" pc="268439133" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="216" pc="268439207" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="11" lineNum="217" pc="268439281" symbol="draw"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="13" lineNum="279" pc="268439356" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="13" lineNum="280" pc="268439360" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="284" pc="268439379" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="285" pc="268439383" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="286" pc="268439406" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="287" pc="268439423" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="288" pc="268439447" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="289" pc="268439471" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="290" pc="268439495" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="291" pc="268439519" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="292" pc="268439543" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="293" pc="268439567" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="294" pc="268439591" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="295" pc="268439615" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="297" pc="268439639" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="298" pc="268439674" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="299" pc="268439709" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="300" pc="268439744" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="301" pc="268439779" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="303" pc="268439814" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="304" pc="268439836" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="305" pc="268439950" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="309" pc="268440132" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="313" pc="268440156" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="314" pc="268440173" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="315" pc="268440216" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="316" pc="268440232" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="317" pc="268440249" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="318" pc="268440292" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="319" pc="268440338" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="320" pc="268440355" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="321" pc="268440364" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="322" pc="268440410" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="323" pc="268440427" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="324" pc="268440470" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="14" lineNum="326" pc="268440486" symbol="getSettings"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="333" pc="268440530" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="335" pc="268440534" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="336" pc="268440545" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="338" pc="268440565" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="339" pc="268440576" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="340" pc="268440587" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="341" pc="268440604" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="343" pc="268440624" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="345" pc="268440644" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="346" pc="268440655" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="348" pc="268440675" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="349" pc="268440686" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="351" pc="268440706" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="352" pc="268440717" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="353" pc="268440760" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="355" pc="268440780" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="358" pc="268440800" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="359" pc="268440811" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="361" pc="268440831" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="362" pc="268440842" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="363" pc="268440859" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="365" pc="268440879" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="368" pc="268440899" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="369" pc="268440910" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="371" pc="268440930" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="372" pc="268440941" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="373" pc="268440961" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="374" pc="268440972" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="375" pc="268440992" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="376" pc="268441003" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="377" pc="268441020" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="379" pc="268441040" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="383" pc="268441063" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="384" pc="268441074" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="385" pc="268441091" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="387" pc="268441111" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="389" pc="268441131" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="390" pc="268441142" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="391" pc="268441162" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="392" pc="268441173" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="393" pc="268441216" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="395" pc="268441236" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="397" pc="268441256" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="398" pc="268441267" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="399" pc="268441290" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="401" pc="268441307" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="402" pc="268441350" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="403" pc="268441427" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="406" pc="268441447" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="409" pc="268441470" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="410" pc="268441481" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="411" pc="268441507" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="412" pc="268441518" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="413" pc="268441544" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="414" pc="268441555" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="15" lineNum="416" pc="268441581" symbol="getField"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="421" pc="268441599" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="422" pc="268441603" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="423" pc="268441626" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="425" pc="268441645" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="427" pc="268441657" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="429" pc="268441675" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="430" pc="268441694" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="431" pc="268441713" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="435" pc="268441735" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="436" pc="268441752" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="439" pc="268441775" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="16" lineNum="440" pc="268441818" symbol="onLayout"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="443" pc="268441862" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="444" pc="268441866" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="445" pc="268441891" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="446" pc="268441903" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="447" pc="268441926" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="451" pc="268441949" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="452" pc="268441963" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="453" pc="268441988" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="454" pc="268442019" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="457" pc="268442093" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="458" pc="268442107" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="459" pc="268442121" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="460" pc="268442135" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="17" lineNum="461" pc="268442149" symbol="onUpdate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="466" pc="268442170" symbol="drawComplication1"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="467" pc="268442174" symbol="drawComplication1"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="468" pc="268442193" symbol="drawComplication1"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="469" pc="268442252" symbol="drawComplication1"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="18" lineNum="470" pc="268442311" symbol="drawComplication1"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="473" pc="268442371" symbol="drawComplication2"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="474" pc="268442375" symbol="drawComplication2"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="475" pc="268442394" symbol="drawComplication2"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="476" pc="268442447" symbol="drawComplication2"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="19" lineNum="477" pc="268442500" symbol="drawComplication2"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="480" pc="268442554" symbol="drawComplication3"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="481" pc="268442558" symbol="drawComplication3"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="482" pc="268442577" symbol="drawComplication3"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="483" pc="268442636" symbol="drawComplication3"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="20" lineNum="484" pc="268442695" symbol="drawComplication3"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="489" pc="268442755" symbol="drawCircle"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="490" pc="268442759" symbol="drawCircle"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="492" pc="268442778" symbol="drawCircle"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="493" pc="268442806" symbol="drawCircle"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="21" lineNum="494" pc="268442824" symbol="drawCircle"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="503" pc="268442901" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="504" pc="268442905" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="506" pc="268442905" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="507" pc="268442949" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="508" pc="268442974" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="509" pc="268443043" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="510" pc="268443054" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="512" pc="268443075" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="513" pc="268443137" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="514" pc="268443162" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="515" pc="268443199" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="517" pc="268443287" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="518" pc="268443370" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="519" pc="268443387" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="521" pc="268443472" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="522" pc="268443489" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="22" lineNum="524" pc="268443574" symbol="drawTime"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="533" pc="268443657" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="538" pc="268443661" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="539" pc="268443692" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="539" pc="268443698" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="540" pc="268443704" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="540" pc="268443720" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="543" pc="268443726" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="544" pc="268443746" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="545" pc="268443752" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="546" pc="268443772" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="23" lineNum="548" pc="268443778" symbol="Authorize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="564" pc="268443782" symbol="HeartRate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="565" pc="268443786" symbol="HeartRate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="566" pc="268443815" symbol="HeartRate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="567" pc="268443828" symbol="HeartRate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="24" lineNum="569" pc="268443876" symbol="HeartRate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="25" lineNum="573" pc="268443926" symbol="Calories"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="25" lineNum="574" pc="268443930" symbol="Calories"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="26" lineNum="578" pc="268443986" symbol="Steps"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="26" lineNum="579" pc="268443990" symbol="Steps"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="583" pc="268444068" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="584" pc="268444072" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="585" pc="268444095" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="586" pc="268444102" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="587" pc="268444171" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="588" pc="268444194" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="592" pc="268444210" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="594" pc="268444217" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="596" pc="268444252" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="600" pc="268444265" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="27" lineNum="603" pc="268444272" symbol="Altitude"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="607" pc="268444325" symbol="Messages"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="28" lineNum="608" pc="268444329" symbol="Messages"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="29" lineNum="612" pc="268444385" symbol="Stairs"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="29" lineNum="613" pc="268444389" symbol="Stairs"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="30" lineNum="617" pc="268444467" symbol="Alarmcount"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="30" lineNum="618" pc="268444471" symbol="Alarmcount"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="31" lineNum="623" pc="268444527" symbol="PhoneConn"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="31" lineNum="625" pc="268444531" symbol="PhoneConn"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="31" lineNum="626" pc="268444548" symbol="PhoneConn"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="31" lineNum="628" pc="268444597" symbol="PhoneConn"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="32" lineNum="633" pc="268444644" symbol="ActiveMinutesDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="32" lineNum="634" pc="268444648" symbol="ActiveMinutesDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="33" lineNum="638" pc="268444719" symbol="ActiveMinutesWeek"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="33" lineNum="639" pc="268444723" symbol="ActiveMinutesWeek"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="34" lineNum="643" pc="268444816" symbol="Battery"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="34" lineNum="644" pc="268444820" symbol="Battery"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="35" lineNum="647" pc="268444926" symbol="DistanceWeek"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="651" pc="268444931" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="652" pc="268444935" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="653" pc="268444935" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="654" pc="268444966" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="655" pc="268444979" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="657" pc="268444995" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="660" pc="268445014" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="661" pc="268445046" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="663" pc="268445056" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="664" pc="268445075" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="36" lineNum="667" pc="268445082" symbol="DistanceDay"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="670" pc="268445158" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="671" pc="268445162" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="672" pc="268445197" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="673" pc="268445232" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="674" pc="268445264" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="676" pc="268445301" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="679" pc="268445323" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="37" lineNum="681" pc="268445399" symbol="DeviceTemp"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="684" pc="268445433" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="685" pc="268445437" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="686" pc="268445460" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="688" pc="268445477" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="689" pc="268445484" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="690" pc="268445497" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="691" pc="268445531" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="693" pc="268445568" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="694" pc="268445591" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="695" pc="268445598" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="696" pc="268445611" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="697" pc="268445645" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="702" pc="268445682" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="703" pc="268445700" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="704" pc="268445707" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="38" lineNum="708" pc="268445756" symbol="Weather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="713" pc="268445824" symbol="EmptyF"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="39" lineNum="714" pc="268445828" symbol="EmptyF"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="40" lineNum="718" pc="268445875" symbol="Invalid"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="40" lineNum="719" pc="268445879" symbol="Invalid"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="41" lineNum="722" pc="268445939" symbol="Premium"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessView.mc" id="41" lineNum="723" pc="268445943" symbol="Premium"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="43" lineNum="11" pc="268435456" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="43" lineNum="12" pc="268435460" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="43" lineNum="13" pc="268435482" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="43" lineNum="14" pc="268435521" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="44" lineNum="18" pc="268435538" symbol="onTemporalEvent"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="44" lineNum="20" pc="268435542" symbol="onTemporalEvent"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="45" lineNum="24" pc="268435555" symbol="getWeather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="45" lineNum="25" pc="268435559" symbol="getWeather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="45" lineNum="27" pc="268435559" symbol="getWeather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="45" lineNum="28" pc="268435590" symbol="getWeather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="45" lineNum="31" pc="268435621" symbol="getWeather"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="61" pc="268435796" symbol="onReceiveWeatherdata"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="62" pc="268435800" symbol="onReceiveWeatherdata"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="63" pc="268435811" symbol="onReceiveWeatherdata"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="64" pc="268435829" symbol="onReceiveWeatherdata"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="66" pc="268435864" symbol="onReceiveWeatherdata"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="77" pc="268436106" symbol="onReceiveWeatherdata"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/backgroundService.mc" id="46" lineNum="86" pc="268436265" symbol="onReceiveWeatherdata"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="48" lineNum="13" pc="268436308" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="48" lineNum="14" pc="268436312" symbol="initialize"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="49" lineNum="17" pc="268436331" symbol="onStart"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="50" lineNum="20" pc="268436336" symbol="onStop"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="51" lineNum="24" pc="268436341" symbol="getInitialView"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="51" lineNum="25" pc="268436345" symbol="getInitialView"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="51" lineNum="26" pc="268436375" symbol="getInitialView"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="51" lineNum="27" pc="268436391" symbol="getInitialView"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="31" pc="268436415" symbol="onSettingsChanged"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="32" pc="268436419" symbol="onSettingsChanged"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="33" pc="268436437" symbol="onSettingsChanged"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="52" lineNum="34" pc="268436453" symbol="onSettingsChanged"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="37" pc="268436455" symbol="onBackgroundData"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="39" pc="268436459" symbol="onBackgroundData"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="40" pc="268436476" symbol="onBackgroundData"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="41" pc="268436514" symbol="onBackgroundData"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="42" pc="268436530" symbol="onBackgroundData"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="43" pc="268436547" symbol="onBackgroundData"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="53" lineNum="45" pc="268436569" symbol="onBackgroundData"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="49" pc="268436601" symbol="getServiceDelegate"/>
+<entry filename="/home/dev/dev-env/DRG-clutterless-working/source/ClutterlessApp.mc" id="54" lineNum="50" pc="268436605" symbol="getServiceDelegate"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="66" symbol="updateFreq"/>
-<entry id="140" method="true" symbol="testdate"/>
 <entry field="true" id="99" symbol="twoHour"/>
 <entry field="true" id="28" symbol="inheritWeather"/>
 <entry field="true" id="84" symbol="Empty"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="35" symbol="fiveHour"/>
-<entry field="true" id="152" symbol="init"/>
+<entry field="true" id="149" method="true" symbol="init"/>
 <entry field="true" id="105" method="true" symbol="Altitude"/>
 <entry field="true" id="8388936" method="true" symbol="info"/>
 <entry field="true" id="59" symbol="threeHour"/>
 <entry field="true" id="47" symbol="BigFont"/>
-<entry id="151" method="true" symbol="Premium"/>
+<entry id="148" method="true" symbol="Premium"/>
 <entry field="true" id="73" symbol="colBg"/>
 <entry field="true" id="106" symbol="colBG"/>
 <entry field="true" id="69" method="true" symbol="Steps"/>
 <entry field="true" id="87" symbol="fiveMin"/>
 <entry field="true" id="91" symbol="green"/>
-<entry id="134" method="true" symbol="getSettings"/>
+<entry id="132" method="true" symbol="getSettings"/>
 <entry field="true" id="60" symbol="Pressure"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-<entry field="true" id="130" symbol="regfont"/>
-<entry field="true" id="126" symbol="monthOfYearArr"/>
+<entry field="true" id="153" symbol="graphcol"/>
+<entry field="true" id="128" symbol="regfont"/>
+<entry field="true" id="124" symbol="monthOfYearArr"/>
 <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
-<entry id="150" method="true" symbol="Invalid"/>
-<entry field="true" id="133" symbol="scrHeight"/>
+<entry id="147" method="true" symbol="Invalid"/>
+<entry field="true" id="131" symbol="scrHeight"/>
 <entry field="true" id="48" symbol="twelvehclock"/>
-<entry id="144" method="true" symbol="ActiveMinutesDay"/>
+<entry id="141" method="true" symbol="ActiveMinutesDay"/>
 <entry field="true" id="85" symbol="gray"/>
 <entry field="true" id="25" symbol="timeSleek"/>
-<entry field="true" id="119" symbol="manualLocY"/>
-<entry field="true" id="118" symbol="manualLocX"/>
 <entry id="8389800" method="true" symbol="getTemperatureHistory"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="75" symbol="Bluetooth"/>
 <entry field="true" id="90" symbol="timeStyle"/>
-<entry id="145" method="true" symbol="ActiveMinutesWeek"/>
-<entry id="142" method="true" symbol="Alarmcount"/>
-<entry id="149" method="true" symbol="EmptyF"/>
+<entry id="142" method="true" symbol="ActiveMinutesWeek"/>
+<entry id="139" method="true" symbol="Alarmcount"/>
+<entry id="146" method="true" symbol="EmptyF"/>
 <entry field="true" id="112" symbol="BtInd"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="46" symbol="timeStyle5"/>
@@ -456,14 +449,14 @@
 <entry field="true" id="36" symbol="timeStyle1"/>
 <entry field="true" id="74" method="true" symbol="HeartRate"/>
 <entry field="true" id="100" symbol="blue"/>
-<entry field="true" id="127" symbol="hourfont"/>
+<entry field="true" id="125" symbol="hourfont"/>
 <entry field="true" id="11" object="true" symbol="complications"/>
-<entry id="139" method="true" symbol="drawTime"/>
+<entry id="137" method="true" symbol="drawTime"/>
 <entry field="true" id="88" method="true" symbol="Stairs"/>
 <entry field="true" id="81" symbol="AppName"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
 <entry id="8389594" symbol="headers"/>
-<entry id="158" method="true" symbol="parse_data_value"/>
+<entry id="155" method="true" symbol="parse_data_value"/>
 <entry field="true" id="116" symbol="twlveclock"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="53" symbol="lightgray"/>
@@ -481,22 +474,22 @@
 <entry field="true" id="64" symbol="stepshistory"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="77" symbol="yellow"/>
-<entry id="147" method="true" symbol="DistanceDay"/>
-<entry id="141" method="true" symbol="Authorize"/>
+<entry id="144" method="true" symbol="DistanceDay"/>
+<entry id="138" method="true" symbol="Authorize"/>
 <entry id="8389178" method="true" symbol="drawCircle"/>
 <entry field="true" id="27" method="true" symbol="Weather"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="58" method="true" symbol="Messages"/>
-<entry field="true" id="120" symbol="methodLeft"/>
+<entry field="true" id="118" symbol="methodLeft"/>
 <entry field="true" id="52" symbol="anotherblue"/>
 <entry id="8390169" method="true" symbol="getServiceDelegate"/>
 <entry id="20" module="true" symbol="Menus"/>
-<entry field="true" id="124" symbol="methodCircle"/>
+<entry field="true" id="122" symbol="methodCircle"/>
 <entry field="true" id="57" symbol="daydistance"/>
-<entry field="true" id="125" symbol="dayOfWeekArr"/>
+<entry field="true" id="123" symbol="dayOfWeekArr"/>
 <entry field="true" id="8389869" symbol="activeMinutesWeek"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="143" method="true" symbol="PhoneConn"/>
+<entry id="140" method="true" symbol="PhoneConn"/>
 <entry field="true" id="22" symbol="time"/>
 <entry field="true" id="23" symbol="timeBig"/>
 <entry field="true" id="115" symbol="iconfont"/>
@@ -512,9 +505,9 @@
 <entry id="8389802" method="true" symbol="getElevationHistory"/>
 <entry field="true" id="76" symbol="anothergreen"/>
 <entry field="true" id="94" symbol="black"/>
-<entry field="true" id="129" symbol="weatherfont"/>
+<entry field="true" id="127" symbol="weatherfont"/>
 <entry field="true" id="93" symbol="zeroformat"/>
-<entry field="true" id="121" symbol="methodCenter"/>
+<entry field="true" id="119" symbol="methodCenter"/>
 <entry id="8390170" method="true" symbol="onBackgroundData"/>
 <entry id="8389809" symbol="order"/>
 <entry field="true" id="8389870" symbol="activeMinutesDay"/>
@@ -524,19 +517,19 @@
 <entry field="true" id="114" symbol="barWidth"/>
 <entry field="true" id="97" symbol="orange"/>
 <entry field="true" id="78" symbol="bottomComplication"/>
-<entry id="138" method="true" symbol="drawComplication3"/>
-<entry id="137" method="true" symbol="drawComplication2"/>
-<entry id="136" method="true" symbol="drawComplication1"/>
+<entry id="136" method="true" symbol="drawComplication3"/>
+<entry id="135" method="true" symbol="drawComplication2"/>
+<entry id="134" method="true" symbol="drawComplication1"/>
 <entry field="true" id="89" symbol="ActiveMinWeek"/>
-<entry field="true" id="154" symbol="methodRightBottom"/>
+<entry field="true" id="151" symbol="methodRightBottom"/>
 <entry id="8388786" method="true" symbol="method"/>
-<entry field="true" id="128" symbol="minutefont"/>
+<entry field="true" id="126" symbol="minutefont"/>
 <entry field="true" id="42" symbol="red"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry field="true" id="102" symbol="venuAlwaysOn"/>
 <entry field="true" id="9" object="true" symbol="graph"/>
-<entry field="true" id="153" symbol="main"/>
+<entry field="true" id="150" symbol="main"/>
 <entry field="true" id="29" symbol="key2"/>
 <entry field="true" id="62" symbol="yetanotherblue"/>
 <entry id="8388640" module="true" symbol="Lang"/>
@@ -548,38 +541,38 @@
 <entry id="13" object="true" symbol="ClutterlessServiceDelegate"/>
 <entry field="true" id="31" symbol="colHour"/>
 <entry field="true" id="56" symbol="fourtyFiveMin"/>
-<entry field="true" id="132" symbol="scrWidth"/>
+<entry field="true" id="130" symbol="scrWidth"/>
 <entry field="true" id="32" symbol="fieldTopLeft"/>
-<entry id="148" method="true" symbol="DeviceTemp"/>
+<entry id="145" method="true" symbol="DeviceTemp"/>
 <entry field="true" id="101" symbol="weekdistance"/>
-<entry field="true" id="122" symbol="methodRight"/>
+<entry field="true" id="120" symbol="methodRight"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="44" method="true" symbol="Battery"/>
 <entry id="8390146" module="true" symbol="Background"/>
 <entry field="true" id="86" symbol="ActiveMinDay"/>
 <entry field="true" id="8389872" symbol="floorsClimbed"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="155" symbol="methodLeftBottom"/>
+<entry field="true" id="152" symbol="methodLeftBottom"/>
 <entry field="true" id="92" symbol="halfmoon"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="38" symbol="colMin"/>
 <entry id="8389808" symbol="period"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry id="157" method="true" symbol="get_data_interator"/>
+<entry id="154" method="true" symbol="get_data_interator"/>
 <entry field="true" id="72" symbol="tenMin"/>
 <entry field="true" id="98" symbol="Field5"/>
 <entry field="true" id="54" symbol="thirtyMin"/>
 <entry field="true" id="111" symbol="settings"/>
 <entry field="true" id="39" symbol="fieldBottomLeft"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="131" symbol="scrRadius"/>
+<entry field="true" id="129" symbol="scrRadius"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="16" symbol="unit"/>
 <entry id="17" method="true" symbol="getWeather"/>
 <entry id="8389781" module="true" symbol="SensorHistory"/>
-<entry id="146" method="true" symbol="DistanceWeek"/>
+<entry id="143" method="true" symbol="DistanceWeek"/>
 <entry field="true" id="30" symbol="BtIndicator"/>
-<entry field="true" id="123" symbol="methodBottomData"/>
+<entry field="true" id="121" symbol="methodBottomData"/>
 <entry field="true" id="83" symbol="graphStyle"/>
 <entry field="true" id="63" symbol="fourHour"/>
 <entry field="true" id="82" symbol="oneHour"/>
@@ -592,8 +585,8 @@
 <entry field="true" id="24" symbol="timeBigSleek"/>
 <entry id="8388642" module="true" symbol="Position"/>
 <entry field="true" id="95" symbol="fieldTopRight"/>
-<entry id="156" method="true" symbol="get_data_type"/>
-<entry id="135" method="true" symbol="getField"/>
+<entry field="true" id="8389846" symbol="type"/>
+<entry id="133" method="true" symbol="getField"/>
 <entry field="true" id="61" symbol="twoHalfHour"/>
 <entry field="true" id="50" symbol="graphData"/>
 <entry id="10" object="true" symbol="halfMoon"/>
@@ -604,64 +597,64 @@
 <entry field="true" id="55" symbol="AlarmCount"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436876" name="type" stackId="1" startPc="268436693"/>
-<entry endPc="268437051" name="type" stackId="1" startPc="268436876"/>
-<entry endPc="268437051" name="value" stackId="2" startPc="268436876"/>
-<entry endPc="268437556" name="yStep" stackId="22" startPc="268437495"/>
-<entry endPc="268437556" name="historyDifPers" stackId="21" startPc="268437495"/>
-<entry endPc="268437860" name="yStep" stackId="26" startPc="268437690"/>
-<entry endPc="268437860" name="historyDifPers" stackId="25" startPc="268437690"/>
-<entry endPc="268437876" name="sample" stackId="24" startPc="268437623"/>
-<entry endPc="268437889" name="i" stackId="23" startPc="268437623"/>
-<entry endPc="268438076" name="graphType" stackId="15" startPc="268437055"/>
-<entry endPc="268438076" name="graph_width" stackId="7" startPc="268437055"/>
-<entry endPc="268438076" name="step_min" stackId="19" startPc="268437055"/>
-<entry endPc="268438076" name="step_max" stackId="18" startPc="268437055"/>
-<entry endPc="268438076" name="lastyStep" stackId="17" startPc="268437055"/>
-<entry endPc="268438076" name="HistoryPresent" stackId="14" startPc="268437055"/>
-<entry endPc="268438076" name="graph_height" stackId="6" startPc="268437055"/>
-<entry endPc="268438076" name="position_y" stackId="3" startPc="268437055"/>
-<entry endPc="268438076" name="value_label" stackId="27" startPc="268437055"/>
-<entry endPc="268438076" name="position_x" stackId="4" startPc="268437055"/>
-<entry endPc="268438076" name="xStep" stackId="12" startPc="268437055"/>
-<entry endPc="268438076" name="height" stackId="13" startPc="268437055"/>
-<entry endPc="268438076" name="labelll" stackId="28" startPc="268437055"/>
-<entry endPc="268438076" name="smallDigitalFont" stackId="5" startPc="268437055"/>
-<entry endPc="268438076" name="minMaxDiff" stackId="11" startPc="268437055"/>
-<entry endPc="268438076" name="latest_sample" stackId="20" startPc="268437055"/>
-<entry endPc="268438076" name="HistoryIter" stackId="8" startPc="268437055"/>
-<entry endPc="268438076" name="primaryColor" stackId="2" startPc="268437055"/>
-<entry endPc="268438076" name="HistoryNew" stackId="16" startPc="268437055"/>
-<entry endPc="268438076" name="HistoryMin" stackId="9" startPc="268437055"/>
-<entry endPc="268438076" name="HistoryMax" stackId="10" startPc="268437055"/>
-<entry endPc="268438077" name="dc" stackId="1" startPc="268437051"/>
-<entry endPc="268438085" name="dc" stackId="1" startPc="268438080"/>
-<entry endPc="268438303" name="app" stackId="1" startPc="268438092"/>
-<entry endPc="268439324" name="dc" stackId="1" startPc="268438304"/>
-<entry endPc="268440521" name="app" stackId="1" startPc="268439351"/>
-<entry endPc="268441591" name="values" stackId="1" startPc="268440522"/>
-<entry endPc="268441836" name="dc" stackId="1" startPc="268441591"/>
-<entry endPc="268442189" name="dc" stackId="1" startPc="268441836"/>
-<entry endPc="268442389" name="data" stackId="2" startPc="268442193"/>
-<entry endPc="268442390" name="dc" stackId="1" startPc="268442189"/>
-<entry endPc="268442572" name="data" stackId="2" startPc="268442394"/>
-<entry endPc="268442573" name="dc" stackId="1" startPc="268442390"/>
-<entry endPc="268442773" name="data" stackId="2" startPc="268442577"/>
-<entry endPc="268442774" name="dc" stackId="1" startPc="268442573"/>
-<entry endPc="268442919" name="i" stackId="4" startPc="268442843"/>
-<entry endPc="268442919" name="perc" stackId="3" startPc="268442778"/>
-<entry endPc="268442919" name="data" stackId="2" startPc="268442778"/>
-<entry endPc="268442920" name="dc" stackId="1" startPc="268442774"/>
-<entry endPc="268443675" name="tmp" stackId="3" startPc="268442924"/>
-<entry endPc="268443675" name="time" stackId="2" startPc="268442924"/>
-<entry endPc="268443676" name="dc" stackId="1" startPc="268442920"/>
-<entry endPc="268443743" name="dc" stackId="1" startPc="268443676"/>
-<entry endPc="268443867" name="tmpString" stackId="1" startPc="268443747"/>
-<entry endPc="268444410" name="value" stackId="1" startPc="268444158"/>
-<entry endPc="268445243" name="unit" stackId="1" startPc="268445021"/>
-<entry endPc="268445909" name="weatherdata" stackId="3" startPc="268445523"/>
-<entry endPc="268445909" name="location" stackId="1" startPc="268445523"/>
-<entry endPc="268445909" name="app" stackId="2" startPc="268445523"/>
+<entry endPc="268436751" name="app" stackId="1" startPc="268436686"/>
+<entry endPc="268436935" name="type" stackId="1" startPc="268436752"/>
+<entry endPc="268437110" name="type" stackId="1" startPc="268436935"/>
+<entry endPc="268437110" name="value" stackId="2" startPc="268436935"/>
+<entry endPc="268437615" name="yStep" stackId="22" startPc="268437554"/>
+<entry endPc="268437615" name="historyDifPers" stackId="21" startPc="268437554"/>
+<entry endPc="268437919" name="yStep" stackId="26" startPc="268437749"/>
+<entry endPc="268437919" name="historyDifPers" stackId="25" startPc="268437749"/>
+<entry endPc="268437935" name="sample" stackId="24" startPc="268437682"/>
+<entry endPc="268437948" name="i" stackId="23" startPc="268437682"/>
+<entry endPc="268438135" name="graphType" stackId="15" startPc="268437114"/>
+<entry endPc="268438135" name="graph_width" stackId="7" startPc="268437114"/>
+<entry endPc="268438135" name="step_min" stackId="19" startPc="268437114"/>
+<entry endPc="268438135" name="step_max" stackId="18" startPc="268437114"/>
+<entry endPc="268438135" name="lastyStep" stackId="17" startPc="268437114"/>
+<entry endPc="268438135" name="HistoryPresent" stackId="14" startPc="268437114"/>
+<entry endPc="268438135" name="graph_height" stackId="6" startPc="268437114"/>
+<entry endPc="268438135" name="position_y" stackId="3" startPc="268437114"/>
+<entry endPc="268438135" name="value_label" stackId="27" startPc="268437114"/>
+<entry endPc="268438135" name="position_x" stackId="4" startPc="268437114"/>
+<entry endPc="268438135" name="xStep" stackId="12" startPc="268437114"/>
+<entry endPc="268438135" name="height" stackId="13" startPc="268437114"/>
+<entry endPc="268438135" name="labelll" stackId="28" startPc="268437114"/>
+<entry endPc="268438135" name="smallDigitalFont" stackId="5" startPc="268437114"/>
+<entry endPc="268438135" name="minMaxDiff" stackId="11" startPc="268437114"/>
+<entry endPc="268438135" name="latest_sample" stackId="20" startPc="268437114"/>
+<entry endPc="268438135" name="HistoryIter" stackId="8" startPc="268437114"/>
+<entry endPc="268438135" name="primaryColor" stackId="2" startPc="268437114"/>
+<entry endPc="268438135" name="HistoryNew" stackId="16" startPc="268437114"/>
+<entry endPc="268438135" name="HistoryMin" stackId="9" startPc="268437114"/>
+<entry endPc="268438135" name="HistoryMax" stackId="10" startPc="268437114"/>
+<entry endPc="268438136" name="dc" stackId="1" startPc="268437110"/>
+<entry endPc="268438144" name="dc" stackId="1" startPc="268438139"/>
+<entry endPc="268438362" name="app" stackId="1" startPc="268438151"/>
+<entry endPc="268439356" name="dc" stackId="1" startPc="268438363"/>
+<entry endPc="268440529" name="app" stackId="1" startPc="268439383"/>
+<entry endPc="268441599" name="values" stackId="1" startPc="268440530"/>
+<entry endPc="268441862" name="dc" stackId="1" startPc="268441599"/>
+<entry endPc="268442170" name="dc" stackId="1" startPc="268441862"/>
+<entry endPc="268442370" name="data" stackId="2" startPc="268442174"/>
+<entry endPc="268442371" name="dc" stackId="1" startPc="268442170"/>
+<entry endPc="268442553" name="data" stackId="2" startPc="268442375"/>
+<entry endPc="268442554" name="dc" stackId="1" startPc="268442371"/>
+<entry endPc="268442754" name="data" stackId="2" startPc="268442558"/>
+<entry endPc="268442755" name="dc" stackId="1" startPc="268442554"/>
+<entry endPc="268442900" name="i" stackId="4" startPc="268442824"/>
+<entry endPc="268442900" name="perc" stackId="3" startPc="268442759"/>
+<entry endPc="268442900" name="data" stackId="2" startPc="268442759"/>
+<entry endPc="268442901" name="dc" stackId="1" startPc="268442755"/>
+<entry endPc="268443656" name="tmp" stackId="3" startPc="268442905"/>
+<entry endPc="268443656" name="time" stackId="2" startPc="268442905"/>
+<entry endPc="268443657" name="dc" stackId="1" startPc="268442901"/>
+<entry endPc="268443781" name="tmpString" stackId="1" startPc="268443661"/>
+<entry endPc="268444324" name="value" stackId="1" startPc="268444072"/>
+<entry endPc="268445157" name="unit" stackId="1" startPc="268444935"/>
+<entry endPc="268445823" name="weatherdata" stackId="3" startPc="268445437"/>
+<entry endPc="268445823" name="location" stackId="1" startPc="268445437"/>
+<entry endPc="268445823" name="app" stackId="2" startPc="268445437"/>
 <entry endPc="268435795" name="lat" stackId="1" startPc="268435559"/>
 <entry endPc="268435795" name="lon" stackId="2" startPc="268435559"/>
 <entry endPc="268436307" name="result" stackId="4" startPc="268435864"/>
@@ -691,11 +684,11 @@
 <dataEntry offset="1434" parentId="Rez" symbolId="JsonData" type="module"/>
 <dataEntry offset="1465" parentId="Rez" symbolId="Strings" type="module"/>
 <dataEntry offset="2128" parentId="globals" symbolId="ClutterlessView" type="class"/>
-<dataEntry offset="2687" parentId="globals" symbolId="complications" type="class"/>
-<dataEntry offset="2790" parentId="globals" symbolId="graph" type="class"/>
+<dataEntry offset="2655" parentId="globals" symbolId="complications" type="class"/>
+<dataEntry offset="2758" parentId="globals" symbolId="graph" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" name="get_data_type" parent="graph">
+<functionEntry accessMode="public" name="init" parent="graph">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="get_data_interator" parent="graph">
@@ -757,10 +750,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="drawTime" parent="ClutterlessView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="testdate" parent="ClutterlessView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

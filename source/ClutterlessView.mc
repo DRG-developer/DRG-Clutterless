@@ -15,8 +15,12 @@ using Toybox.ActivityMonitor;
 class graph 
 {	
 	var settings;
-	function get_data_type() {
-    		return 1;
+	var type;
+	var graphcol;
+	function init() {
+		var app = Application.getApp();
+    		type = app.getProperty("graphData");
+    		graphcol = app.getProperty("graphCol");
 	}
 	
 	function get_data_interator(type) {
@@ -34,38 +38,36 @@ class graph
 
     
 	function parse_data_value(type, value) {
-	if (type==1) {
-		return value;
-	} else if (type==2) {
-		if (settings.elevationUnits == System.UNIT_STATUTE) {
-			value *= 3.28084;
+		if (type == 1) {
+			return value;
+		} else if (type == 2) {
+			if (settings.elevationUnits == System.UNIT_STATUTE) {
+				value *= 3.28084;
+			}
+			return value;
+		} else if (type == 3) {
+			return value/100.0;
+		} else if (type == 4) {
+			if (settings.temperatureUnits == System.UNIT_STATUTE) {
+				value = value * (9.0 / 5) + 32; // Convert to Farenheit: ensure floating point division.
+			} 
+			return value;
 		}
-		return value;
-	} else if (type==3) {
-	    	return value/100.0;
-	} else if (type==4) {
-		if (settings.temperatureUnits == System.UNIT_STATUTE) {
-			value = value * (9.0 / 5) + 32; // Convert to Farenheit: ensure floating point division.
-		} 
-		return value;
-	    }
-    }
+	}
     
-    function draw(dc) {  	
+	function draw(dc) {  	
 	    	settings = Sys.getDeviceSettings();
 	    	
-		var primaryColor = 0xFFFFFF;
 		var position_y = dc.getHeight() * 0.70;
 		var position_x = dc.getWidth() / 2;
 		var smallDigitalFont = 2;
 		var graph_height = dc.getHeight() * 0.2;
 		var graph_width = dc.getWidth() * 0.60;
 	    	
-	    	//Calculation
 	        var HistoryIter = get_data_interator(1);
 	        
 	        if (HistoryIter == null) {
-	        	dc.setColor(primaryColor, Graphics.COLOR_TRANSPARENT);
+	        	dc.setColor(graphcol, Graphics.COLOR_TRANSPARENT);
 	        	dc.drawText(position_x, position_y, smallDigitalFont, "--", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 	        	return;
 	        }
@@ -74,14 +76,10 @@ class graph
 	        var HistoryMax = HistoryIter.getMax();
 	        
 	        if (HistoryMin == null || HistoryMax == null) {
-	        	dc.setColor(primaryColor, Graphics.COLOR_TRANSPARENT);
+	        	dc.setColor(graphcol, Graphics.COLOR_TRANSPARENT);
 	        	dc.drawText(position_x, position_y, smallDigitalFont, "-", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 	        	return;
-	        }// else if (HistoryMin.data == null || HistoryMax.data == null) {
-	        //	dc.setColor(primaryColor, Graphics.COLOR_TRANSPARENT);
-	        //	dc.drawText(position_x, position_y, smallDigitalFont, "-", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
-	        //	return;
-	        //}
+	        }
 	        
 	        var minMaxDiff = (HistoryMax - HistoryMin).toFloat();
 	        
@@ -112,7 +110,7 @@ class graph
 		}
 	        
 		dc.setPenWidth(2);
-		dc.setColor(primaryColor, Graphics.COLOR_TRANSPARENT);
+		dc.setColor(graphcol, Graphics.COLOR_TRANSPARENT);
 		
 		//Build and draw Iteration
 		for(var i = graph_width; i > 0; i--){
@@ -133,7 +131,7 @@ class graph
 					yStep = yStep < 0 ? 0 : yStep;
 							
 					if (lastyStep != null){
-						// draw diagram
+						// draw graph
 						dc.drawLine(position_x + (xStep - graph_width / 2), 
 								((graphType == 1) ? (position_y - (lastyStep - graph_height / 2)) : (dc.getHeight() * 0.83)), 
 								position_x + (xStep - graph_width / 2), 
@@ -146,7 +144,7 @@ class graph
 		}
 		
 			
-		dc.setColor(primaryColor, Graphics.COLOR_TRANSPARENT);
+		dc.setColor(graphcol, Graphics.COLOR_TRANSPARENT);
 	
 		if (HistoryPresent == null) {
 			dc.drawText(position_x, 
@@ -190,9 +188,7 @@ class complications {
 	
 	
 	function draw(dc) {
-		if (!init){
-			initialize();
-		}
+		
 		data = methodRight.invoke();
 		dc.drawText(scrRadius - 30, scrRadius + 25, regfont, data[0], Graphics.TEXT_JUSTIFY_RIGHT);
 		dc.drawText(scrRadius - 5, scrRadius + 32, iconfont, data[1], Graphics.TEXT_JUSTIFY_RIGHT);	
@@ -238,9 +234,7 @@ class ClutterlessView extends WatchUi.WatchFace
 		var barX, barWidth;
 		var iconfont;
 		var twlveclock = false;
-		var showdate = true;
 		var BattStats;
-		var manualLocX, manualLocY;
 		var timeStyle;
 		/* ICONS MAPPER*/
 		
@@ -296,21 +290,22 @@ class ClutterlessView extends WatchUi.WatchFace
 			colDATE = app.getProperty("colDate");
 			colDatafield = app.getProperty("colDatafield");
 			twlveclock   = app.getProperty("twelvehclock");
-			showdate     = app.getProperty("showdate");
 			BtInd        = app.getProperty("BtIndicator");
 			zeroformat   = app.getProperty("zeroformat");
+			
 			methodLeft   = getField(app.getProperty("Field1"));
 			methodCenter = getField(app.getProperty("Field2"));
 			methodRight  = getField(app.getProperty("Field3"));
 			bottomComplication = getField(app.getProperty("FieldBottom"));
 			methodCircle = getField(app.getProperty("FieldCircle"));
+			
 			if (app.getProperty("shortdate") == true) {
 			    dayOfWeekArr = [null, "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 			monthOfYearArr   = [null, "Jan", "Feb", "March", "April", "May", "June", "July",
 						  "Aug", "Sep", "Oct", "Nov", "Dec"];
 			}
 			
-			timeStyle    = app.getProperty("timeStyle");
+			timeStyle = app.getProperty("timeStyle");
 			
 			  
 			
@@ -427,9 +422,13 @@ class ClutterlessView extends WatchUi.WatchFace
 				Background.deleteTemporalEvent();
 			}
 			getSettings();
+			
+			bottomComplication.init();
+			
 			scrWidth = dc.getWidth();
 			scrHeight = dc.getHeight();
 			scrRadius = scrWidth / 2;
+			
 			
 	
 			if (scrHeight < 209) {
@@ -446,11 +445,6 @@ class ClutterlessView extends WatchUi.WatchFace
 			info     = ActivityMonitor.getInfo();
 			settings = Sys.getDeviceSettings();
 			
-			
-			if(showdate == true){
-				testdate(dc);
-			}
-
 		
 	
 			drawTime(dc);
@@ -463,7 +457,6 @@ class ClutterlessView extends WatchUi.WatchFace
 			drawComplication2(dc);
 			drawComplication3(dc);
 			drawCircle(dc);
-			testdate(dc);
 			bottomComplication.draw(dc);
 		}
 		
@@ -532,9 +525,6 @@ class ClutterlessView extends WatchUi.WatchFace
 			}
 		}
 		
-		function testdate(dc) {
-			dc.drawText(scrRadius + 10, scrRadius * 1.07, 1, "Aug 1", Graphics.TEXT_JUSTIFY_LEFT);
-		}
 		
 	
 		
