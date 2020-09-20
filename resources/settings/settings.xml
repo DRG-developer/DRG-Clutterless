@@ -1,0 +1,351 @@
+<settings>
+	
+	<setting propertyKey="@Properties.keys" title="@Strings.key2">
+		<settingConfig type="alphaNumeric"></settingConfig>
+	</setting>
+
+		
+	<setting propertyKey="@Properties.colHour" title="@Strings.colHour">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.black</listEntry>
+			<listEntry value="5592405">@Strings.gray</listEntry>
+			<listEntry value="11184810">@Strings.lightgray</listEntry>
+			<listEntry value="16777215">@Strings.white</listEntry>	
+			<listEntry value="16776960">@Strings.yellow</listEntry>
+			<listEntry value="16711680">@Strings.red</listEntry>	
+			<listEntry value="65280">@Strings.green</listEntry>	
+			<listEntry value="11206400">@Strings.anothergreen</listEntry>	
+			<listEntry value="255">@Strings.blue</listEntry>	
+			<listEntry value="43775">@Strings.anotherblue</listEntry>	
+			<listEntry value="5636095">@Strings.yetanotherblue</listEntry>	
+			<listEntry value="16733440">@Strings.orange</listEntry>		
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.colMin" title="@Strings.colMin">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.black</listEntry>
+			<listEntry value="5592405">@Strings.gray</listEntry>
+			<listEntry value="11184810">@Strings.lightgray</listEntry>
+			<listEntry value="16777215">@Strings.white</listEntry>	
+			<listEntry value="16776960">@Strings.yellow</listEntry>
+			<listEntry value="16711680">@Strings.red</listEntry>	
+			<listEntry value="65280">@Strings.green</listEntry>	
+			<listEntry value="11206400">@Strings.anothergreen</listEntry>	
+			<listEntry value="255">@Strings.blue</listEntry>	
+			<listEntry value="43775">@Strings.anotherblue</listEntry>	
+			<listEntry value="5636095">@Strings.yetanotherblue</listEntry>	
+			<listEntry value="16733440">@Strings.orange</listEntry>		
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.colDatafield" title="@Strings.colDatafield">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.black</listEntry>
+			<listEntry value="5592405">@Strings.gray</listEntry>
+			<listEntry value="11184810">@Strings.lightgray</listEntry>
+			<listEntry value="16777215">@Strings.white</listEntry>	
+			<listEntry value="16776960">@Strings.yellow</listEntry>	
+			<listEntry value="16711680">@Strings.red</listEntry>	
+			<listEntry value="65280">@Strings.green</listEntry>	
+			<listEntry value="11206400">@Strings.anothergreen</listEntry>	
+			<listEntry value="255">@Strings.blue</listEntry>	
+			<listEntry value="43775">@Strings.anotherblue</listEntry>	
+			<listEntry value="5636095">@Strings.yetanotherblue</listEntry>	
+			<listEntry value="16733440">@Strings.orange</listEntry>	
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.colDate" title="@Strings.colDate">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.black</listEntry>
+			<listEntry value="5592405">@Strings.gray</listEntry>
+			<listEntry value="11184810">@Strings.lightgray</listEntry>
+			<listEntry value="16777215">@Strings.white</listEntry>
+			<listEntry value="16776960">@Strings.yellow</listEntry>
+			<listEntry value="16711680">@Strings.red</listEntry>	
+			<listEntry value="65280">@Strings.green</listEntry>	
+			<listEntry value="11206400">@Strings.anothergreen</listEntry>	
+			<listEntry value="255">@Strings.blue</listEntry>	
+			<listEntry value="43775">@Strings.anotherblue</listEntry>	
+			<listEntry value="5636095">@Strings.yetanotherblue</listEntry>	
+			<listEntry value="16733440">@Strings.orange</listEntry>			
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.colLine" title="@Strings.colLine">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.black</listEntry>
+			<listEntry value="5592405">@Strings.gray</listEntry>
+			<listEntry value="11184810">@Strings.lightgray</listEntry>
+			<listEntry value="16777215">@Strings.white</listEntry>
+			<listEntry value="16776960">@Strings.yellow</listEntry>
+			<listEntry value="16711680">@Strings.red</listEntry>	
+			<listEntry value="65280">@Strings.green</listEntry>	
+			<listEntry value="11206400">@Strings.anothergreen</listEntry>	
+			<listEntry value="255">@Strings.blue</listEntry>	
+			<listEntry value="43775">@Strings.anotherblue</listEntry>	
+			<listEntry value="5636095">@Strings.yetanotherblue</listEntry>	
+			<listEntry value="16733440">@Strings.orange</listEntry>			
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.colBg" title="@Strings.colBg">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.black</listEntry>
+			<listEntry value="5592405">@Strings.gray</listEntry>
+			<listEntry value="11184810">@Strings.lightgray</listEntry>
+			<listEntry value="16777215">@Strings.white</listEntry>
+			<listEntry value="16776960">@Strings.yellow</listEntry>
+			<listEntry value="16711680">@Strings.red</listEntry>	
+			<listEntry value="65280">@Strings.green</listEntry>	
+			<listEntry value="11206400">@Strings.anothergreen</listEntry>	
+			<listEntry value="255">@Strings.blue</listEntry>	
+			<listEntry value="43775">@Strings.anotherblue</listEntry>	
+			<listEntry value="5636095">@Strings.yetanotherblue</listEntry>	
+			<listEntry value="16733440">@Strings.orange</listEntry>			
+		</settingConfig>
+	</setting>
+	
+	
+	<setting propertyKey="@Properties.Field1" title="@Strings.fieldTopLeft">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>	
+			<listEntry value="0">@Strings.HeartRate</listEntry>	
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>
+			<listEntry value="13">@Strings.weather</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.Field2" title="@Strings.fieldTopRight">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>	
+			<listEntry value="0">@Strings.HeartRate</listEntry>	
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>		
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>	
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>	
+			<listEntry value="13">@Strings.weather</listEntry>	
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.Field3" title="@Strings.fieldBottomLeft">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>	
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>		
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>	
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>
+			<listEntry value="12">@Strings.devicetemp</listEntry>	
+			<listEntry value="13">@Strings.weather</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.FieldCircle" title="@Strings.fieldBottomRight">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>
+			<listEntry value="0">@Strings.HeartRate</listEntry>	
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>	
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>	
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>		
+			<listEntry value="13">@Strings.weather</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.FieldBottom" title="@Strings.bottomComplication">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>	
+			<listEntry value="14">@Strings.graph</listEntry>	
+			<listEntry value="15">@Strings.complications</listEntry>	
+			<listEntry value="16">@Strings.halfmoon</listEntry>	
+		</settingConfig>
+	</setting>
+	
+		
+	<setting propertyKey="@Properties.updateFreq" title="@Strings.updateFreq">
+		<settingConfig type="list">
+			<listEntry value="5">@Strings.fiveMin</listEntry>
+			<listEntry value="10">@Strings.tenMin</listEntry>
+			<listEntry value="15">@Strings.fifteenMin</listEntry>
+			<listEntry value="30">@Strings.thirtyMin</listEntry>	
+			<listEntry value="45">@Strings.fourtyFiveMin</listEntry>	
+			<listEntry value="60">@Strings.oneHour</listEntry>	
+			<listEntry value="90">@Strings.oneAndAHalfHour</listEntry>	
+			<listEntry value="120">@Strings.twoHour</listEntry>	
+			<listEntry value="150">@Strings.twoHalfHour</listEntry>	
+			<listEntry value="180">@Strings.threeHour</listEntry>	
+			<listEntry value="240">@Strings.fourHour</listEntry>	
+			<listEntry value="300">@Strings.fiveHour</listEntry>	
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.twelvehclock" title="@Strings.twelvehclock">
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.showdate" title="@Strings.showdate">
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.shortdate" title="@Strings.shortdate">
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.BtIndicator" title="@Strings.BtIndicator">
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.zeroformat" title="@Strings.zeroformat">
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.venuAlwaysOn" title="@Strings.venuAlwaysOn">
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.timeStyle" title="@Strings.timeStyle">
+		<settingConfig type="list">
+			<listEntry value="1">@Strings.timeStyle1</listEntry>
+			<listEntry value="2">@Strings.timeStyle2</listEntry>
+			<listEntry value="3">@Strings.timeStyle3</listEntry>
+			<listEntry value="4">@Strings.timeStyle4</listEntry>
+			<listEntry value="5">@Strings.timeStyle5</listEntry>
+		</settingConfig>
+	</setting>
+	
+	
+	<setting propertyKey="@Properties.complicationData1" title="@Strings.bottomComplicationData1">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>
+			<listEntry value="0">@Strings.HeartRate</listEntry>	
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>	
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>	
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>		
+			<listEntry value="13">@Strings.weather</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.complicationData2" title="@Strings.bottomComplicationData2">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>
+			<listEntry value="0">@Strings.HeartRate</listEntry>	
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>	
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>	
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>		
+			<listEntry value="13">@Strings.weather</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.complicationData3" title="@Strings.bottomComplicationData3">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>
+			<listEntry value="0">@Strings.HeartRate</listEntry>	
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>	
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>	
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>		
+			<listEntry value="13">@Strings.weather</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.complicationData4" title="@Strings.bottomComplicationData4">
+		<settingConfig type="list">
+			<listEntry value="-1">@Strings.Empty</listEntry>
+			<listEntry value="0">@Strings.HeartRate</listEntry>	
+			<listEntry value="1">@Strings.Calories</listEntry>	
+			<listEntry value="2">@Strings.Steps</listEntry>	
+			<listEntry value="3">@Strings.Altitude</listEntry>	
+			<listEntry value="4">@Strings.Battery</listEntry>	
+			<listEntry value="5">@Strings.Stairs</listEntry>	
+			<listEntry value="6">@Strings.Messages</listEntry>	
+			<listEntry value="7">@Strings.AlarmCount</listEntry>		
+			<listEntry value="8">@Strings.Bluetooth</listEntry>		
+			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
+			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
+			<listEntry value="11">@Strings.daydistance</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>		
+			<listEntry value="13">@Strings.weather</listEntry>
+		</settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.graphStyle" title="@Strings.graphStyle"> 
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
+	<setting propertyKey="@Properties.graphData" title="@Strings.graphData">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.Altitude</listEntry>	
+			<listEntry value="1">@Strings.Pressure</listEntry>	
+			<listEntry value="12">@Strings.devicetemp</listEntry>		
+			<listEntry value="13">@Strings.HeartRate</listEntry>
+		</settingConfig>
+	</setting>
+
+
+	
+	
+	
+</settings>	
+	

@@ -1,0 +1,109 @@
+<strings>
+    <string id="AppName">DRG Clutterless</string>    
+    <string id="twelvehclock">use the twelve hour clock</string>  
+    
+      
+    <string id="colHour">hour color</string>    
+    <string id="colMin">minute color</string>    
+    <string id="colLine">seperator color</string>    
+    <string id="colBg">background color</string>    
+    <string id="colDatafield">datafield colors</string>    
+    <string id="colDate">date color</string>  
+        
+          
+    <string id="gray">dark gray</string>    
+    <string id="lightgray">light gray</string>    
+    <string id="white">white</string>    
+    <string id="yellow">yellow</string>   
+    <string id="red">red </string>   
+    <string id="green">green</string>   
+    <string id="black">black</string>   
+    <string id="anothergreen">another green</string>   
+    <string id="orange">orange</string>   
+    <string id="blue">bue</string>   
+    <string id="anotherblue">another blue</string>   
+    <string id="yetanotherblue">yet another blue</string>
+    
+     
+    <string id="venuAlwaysOn">VENU: have the screen always on?</string> 
+    
+      
+    <string id="showdate">show the date</string>   
+    <string id="shortdate">make the date string shorter</string>   
+    
+    
+	<string id="fieldTopLeft">top right field</string>
+	<string id="fieldTopRight">bottom left field </string>
+	<string id="fieldBottomLeft">top left field</string>
+	<string id="fieldBottomRight">bottom right field</string>
+	<string id="Field5">bottom center field</string>
+	
+	
+	<string id="key2">premium activation key </string>
+
+	<string id="timeStyle">what style of time?</string>
+	
+	<string id="timeStyle1"> bold big hour font, small minute font + date</string>
+	<string id="timeStyle2"> bold big hour font, non bold big minute font</string>
+	<string id="timeStyle3"> bold big hour font, bold big minute font </string>
+	<string id="timeStyle4"> bold smaller hour font, small minute + date font </string>
+	<string id="timeStyle5"> bold smaller hour font, same size bold minute font </string>
+	
+	
+	<string id="HeartRate">Current Heartrate</string>
+	<string id="Calories">Calories burned</string>
+	<string id="Steps">Steps</string>
+	<string id="Altitude">Altitude</string>
+	<string id="Messages">Amount of notifications</string>
+	<string id="Stairs">Stairs climbed</string>
+	<string id="AlarmCount">amount of alarms set</string>
+	<string id="Bluetooth">phone connection status</string>
+	<string id="ActiveMinDay">active minutes today</string>
+	<string id="ActiveMinWeek">active minutes week</string>
+	<string id="Battery">Battery percentage</string>
+	<string id="weekdistance">distance from this week</string>
+	<string id="daydistance">(BUGGED) distance today</string>
+	<string id="devicetemp">ondevice temperature</string>
+	<string id="Empty">show nothing</string>
+	<string id="weather">(PREMIUM) weather</string>
+	<string id="Pressure">barometer</string>
+	
+	<string id="bottomComplication">what to show at the bottom half? (config at bottom of page)</string>
+	<string id="graph">a graph</string>
+	<string id="graphData">what data should te graph be?</string>
+	<string id="graphStyle">should te graph be a filled style?</string>
+	<string id="complications"> 4 datafields</string>
+	<string id="halfmoon"> a half moon shaped progress bar )</string>
+	<string id="stepshistory"> a half moon shaped progress bar )</string>
+	<string id="BigFont"> a half moon shaped progress bar )</string>
+	
+	
+	<string id="bottomComplicationData1"> left (if you chose 4 datafields at bottom half)</string>
+	<string id="bottomComplicationData2"> right (if you chose 4 datafields at bottom half)</string>
+	<string id="bottomComplicationData3"> left bottom (if you chose 4 datafields at bottom half)</string>
+	<string id="bottomComplicationData4"> right bottom fields (if you chose 4 datafields at bottom half)</string>
+
+
+	
+	
+	<string id="zeroformat">add a zero when the time is under 10 (09:10 instead of 9:10)</string>
+
+	<string id="BtIndicator"> show a phone connection status the top center</string>
+	
+	<string id="updateFreq">(PREMIUM) how often should weather update?</string>
+	<string id="fiveMin">every five minutes</string>
+	<string id="tenMin">every ten minutes</string>
+	<string id="fifteenMin">every 15 minutes</string>
+	<string id="thirtyMin">every half hour</string>
+	<string id="fourtyFiveMin">every 45 minutes</string>
+	<string id="oneHour">every hour</string>
+	<string id="oneAndAHalfHour">every one and a half hour</string>
+	<string id="twoHour">every 2 hours</string>
+	<string id="twoHalfHour">every 2,5 hours</string>
+	<string id="threeHour">every 3 hours</string>
+	<string id="fourHour">every 4 hours</string>
+	<string id="fiveHour">every 5 hours</string>
+    
+    
+     
+</strings>
