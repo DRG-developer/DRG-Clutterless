@@ -20,22 +20,14 @@ class graph
 	}
 	
 	function get_data_interator(type) {
-		if (type==1) {
-			if (Toybox.SensorHistory has :getHeartRateHistory) {
+		if (type == 1) {
 		        return Toybox.SensorHistory.getHeartRateHistory({});
-		    }
-	    } else if (type==2) {
-	    	if ( Toybox.SensorHistory has :getElevationHistory) {
-		        return Toybox.SensorHistory.getElevationHistory({});
-		    }
-	    } else if (type==3) {
-	    	if ((Toybox.SensorHistory has :getPressureHistory)) {
-		        return Toybox.SensorHistory.getPressureHistory({});
-		    }
-	    } else if (type==4) {
-	    	if ((Toybox.SensorHistory has :getTemperatureHistory)) {
-		        return Toybox.SensorHistory.getTemperatureHistory({});
-		    }
+		} else if (type == 2) {
+		        return Toybox.SensorHistory.getElevationHistory({});   
+		} else if (type == 3) {	
+			return Toybox.SensorHistory.getPressureHistory({});
+		} else if (type == 4) {  	
+			return Toybox.SensorHistory.getTemperatureHistory({});
 	    }
 	    return null;
 	}
@@ -70,8 +62,7 @@ class graph
 		var graph_width = dc.getWidth() * 0.60;
 	    	
 	    	//Calculation
-	    	var targetdatatype = get_data_type();
-	        var HistoryIter = get_data_interator(targetdatatype);
+	        var HistoryIter = get_data_interator(1);
 	        
 	        if (HistoryIter == null) {
 	        	dc.setColor(primaryColor, Graphics.COLOR_TRANSPARENT);
@@ -165,7 +156,7 @@ class graph
 				Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 			return;
 		}
-		var value_label = parse_data_value(targetdatatype, HistoryPresent);
+		var value_label = parse_data_value(1, HistoryPresent);
 		var labelll = value_label.format("%d");
 						
 		settings = null;
@@ -250,6 +241,7 @@ class ClutterlessView extends WatchUi.WatchFace
 		var showdate = true;
 		var BattStats;
 		var manualLocX, manualLocY;
+		var timeStyle;
 		/* ICONS MAPPER*/
 		
 		
@@ -316,6 +308,27 @@ class ClutterlessView extends WatchUi.WatchFace
 			    dayOfWeekArr = [null, "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 			monthOfYearArr   = [null, "Jan", "Feb", "March", "April", "May", "June", "July",
 						  "Aug", "Sep", "Oct", "Nov", "Dec"];
+			}
+			
+			timeStyle    = app.getProperty("timeStyle");
+			
+			  
+			
+			if (timeStyle == 1) {
+				hourfont = WatchUi.loadResource(Rez.Fonts.timeBig);
+				minutefont = 15;
+			} else if (timeStyle == 2) {
+				minutefont = WatchUi.loadResource(Rez.Fonts.timeBigSleek);
+				hourfont = WatchUi.loadResource(Rez.Fonts.timeBig);
+			} else if (timeStyle == 3){
+		 		minutefont = null;
+				hourfont = WatchUi.loadResource(Rez.Fonts.timeBig);
+			} else if (timeStyle == 4){
+				hourfont = WatchUi.loadResource(Rez.Fonts.time);
+				minutefont = 14;
+			} else {
+				hourfont = WatchUi.loadResource(Rez.Fonts.time);
+
 			}
 
 			
@@ -443,7 +456,7 @@ class ClutterlessView extends WatchUi.WatchFace
 			drawTime(dc);
 			dc.setColor(colDatafield, -1);
 			if(BtInd && settings.phoneConnected){
-				dc.drawText(scrRadius, 15, iconfont, "h", Graphics.TEXT_JUSTIFY_CENTER);
+				dc.drawText(scrHeight * 0.08, scrRadius + 5, iconfont, "h", Graphics.TEXT_JUSTIFY_CENTER|4);
 			}
 			
 			drawComplication1(dc);
@@ -492,6 +505,7 @@ class ClutterlessView extends WatchUi.WatchFace
 		
 		
 		 
+		
 		function drawTime(dc){
 			var time;
 			
@@ -501,9 +515,21 @@ class ClutterlessView extends WatchUi.WatchFace
 			if (zeroformat ){
 				tmp = tmp.format("%02d");
 			}
-			dc.drawText(scrRadius -2, scrRadius * 0.75, hourfont, tmp, Graphics.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(scrRadius -2, scrRadius , hourfont, tmp, Graphics.TEXT_JUSTIFY_RIGHT|4);
 			dc.setColor(colMIN, -1);
-			dc.drawText(scrRadius + 10, scrRadius * 0.77, 14, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
+			if ( timeStyle == 1 || timeStyle == 4) {
+				dc.drawText(scrRadius + 10, scrRadius * 0.91, minutefont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
+				
+				dc.drawText(scrRadius + 10, scrHeight * 0.52, 1, time.month + " " + time.day, Graphics.TEXT_JUSTIFY_LEFT);
+			} else if (timeStyle == 2) {
+				dc.drawText(scrRadius + 2, scrRadius , minutefont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
+
+			} else  if (timeStyle == 3) {
+				dc.drawText(scrRadius + 2, scrRadius , hourfont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
+			} else {
+				dc.drawText(scrRadius + 2, scrRadius , hourfont, time.min.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT|4);
+
+			}
 		}
 		
 		function testdate(dc) {
