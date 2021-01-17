@@ -168,7 +168,7 @@
 		</settingConfig>
 	</setting>
 	
-	<setting propertyKey="@Properties.fieldCircle" title="@Strings.fieldBottomRight">
+	<setting propertyKey="@Properties.FieldCircle" title="@Strings.fieldBottomRight">
 		<settingConfig type="list">
 			<listEntry value="-1">@Strings.Empty</listEntry>
 			<listEntry value="0">@Strings.HeartRate</listEntry>	
@@ -188,7 +188,7 @@
 		</settingConfig>
 	</setting>
 	
-	<setting propertyKey="@Properties.bottomThing" title="@Strings.Field5">
+	<setting propertyKey="@Properties.FieldBottom" title="@Strings.Field5">
 		<settingConfig type="list">
 			<listEntry value="-1">@Strings.Empty</listEntry>	
 			<listEntry value="14">@Strings.graph</listEntry>	
@@ -215,10 +215,7 @@
 		</settingConfig>
 	</setting>
 	
-	<setting propertyKey="@Properties.twelvehclock" title="@Strings.twelvehclock">
-		<settingConfig type="boolean"></settingConfig>
-	</setting>
-	
+
 	<setting propertyKey="@Properties.showdate" title="@Strings.showdate">
 		<settingConfig type="boolean"></settingConfig>
 	</setting>
@@ -235,90 +232,16 @@
 		<settingConfig type="boolean"></settingConfig>
 	</setting>
 	
+	<setting propertyKey="@Properties.graphStyleFilled" title="@Strings.graphStyleFilled">
+		<settingConfig type="boolean"></settingConfig>
+	</setting>
+	
 	<setting propertyKey="@Properties.venuAlwaysOn" title="@Strings.venuAlwaysOn">
 		<settingConfig type="boolean"></settingConfig>
 	</setting>
 	
 	
-	<setting propertyKey="@Properties.complicationData1" title="@Strings.bottomComplicationData1">
-		<settingConfig type="list">
-			<listEntry value="-1">@Strings.Empty</listEntry>
-			<listEntry value="0">@Strings.HeartRate</listEntry>	
-			<listEntry value="1">@Strings.Calories</listEntry>	
-			<listEntry value="2">@Strings.Steps</listEntry>	
-			<listEntry value="3">@Strings.Altitude</listEntry>	
-			<listEntry value="4">@Strings.Battery</listEntry>	
-			<listEntry value="5">@Strings.Stairs</listEntry>	
-			<listEntry value="6">@Strings.Messages</listEntry>	
-			<listEntry value="7">@Strings.AlarmCount</listEntry>		
-			<listEntry value="8">@Strings.Bluetooth</listEntry>		
-			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
-			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
-			<listEntry value="11">@Strings.daydistance</listEntry>	
-			<listEntry value="12">@Strings.devicetemp</listEntry>		
-			<listEntry value="13">@Strings.weather</listEntry>
-		</settingConfig>
-	</setting>
 	
-	<setting propertyKey="@Properties.complicationData2" title="@Strings.bottomComplicationData2">
-		<settingConfig type="list">
-			<listEntry value="-1">@Strings.Empty</listEntry>
-			<listEntry value="0">@Strings.HeartRate</listEntry>	
-			<listEntry value="1">@Strings.Calories</listEntry>	
-			<listEntry value="2">@Strings.Steps</listEntry>	
-			<listEntry value="3">@Strings.Altitude</listEntry>	
-			<listEntry value="4">@Strings.Battery</listEntry>	
-			<listEntry value="5">@Strings.Stairs</listEntry>	
-			<listEntry value="6">@Strings.Messages</listEntry>	
-			<listEntry value="7">@Strings.AlarmCount</listEntry>		
-			<listEntry value="8">@Strings.Bluetooth</listEntry>		
-			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
-			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
-			<listEntry value="11">@Strings.daydistance</listEntry>	
-			<listEntry value="12">@Strings.devicetemp</listEntry>		
-			<listEntry value="13">@Strings.weather</listEntry>
-		</settingConfig>
-	</setting>
-	
-	<setting propertyKey="@Properties.complicationData3" title="@Strings.bottomComplicationData3">
-		<settingConfig type="list">
-			<listEntry value="-1">@Strings.Empty</listEntry>
-			<listEntry value="0">@Strings.HeartRate</listEntry>	
-			<listEntry value="1">@Strings.Calories</listEntry>	
-			<listEntry value="2">@Strings.Steps</listEntry>	
-			<listEntry value="3">@Strings.Altitude</listEntry>	
-			<listEntry value="4">@Strings.Battery</listEntry>	
-			<listEntry value="5">@Strings.Stairs</listEntry>	
-			<listEntry value="6">@Strings.Messages</listEntry>	
-			<listEntry value="7">@Strings.AlarmCount</listEntry>		
-			<listEntry value="8">@Strings.Bluetooth</listEntry>		
-			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
-			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
-			<listEntry value="11">@Strings.daydistance</listEntry>	
-			<listEntry value="12">@Strings.devicetemp</listEntry>		
-			<listEntry value="13">@Strings.weather</listEntry>
-		</settingConfig>
-	</setting>
-	
-	<setting propertyKey="@Properties.complicationData4" title="@Strings.bottomComplicationData4">
-		<settingConfig type="list">
-			<listEntry value="-1">@Strings.Empty</listEntry>
-			<listEntry value="0">@Strings.HeartRate</listEntry>	
-			<listEntry value="1">@Strings.Calories</listEntry>	
-			<listEntry value="2">@Strings.Steps</listEntry>	
-			<listEntry value="3">@Strings.Altitude</listEntry>	
-			<listEntry value="4">@Strings.Battery</listEntry>	
-			<listEntry value="5">@Strings.Stairs</listEntry>	
-			<listEntry value="6">@Strings.Messages</listEntry>	
-			<listEntry value="7">@Strings.AlarmCount</listEntry>		
-			<listEntry value="8">@Strings.Bluetooth</listEntry>		
-			<listEntry value="9">@Strings.ActiveMinDay</listEntry>		
-			<listEntry value="10">@Strings.ActiveMinWeek</listEntry>		
-			<listEntry value="11">@Strings.daydistance</listEntry>	
-			<listEntry value="12">@Strings.devicetemp</listEntry>		
-			<listEntry value="13">@Strings.weather</listEntry>
-		</settingConfig>
-	</setting>
 
 	
 	

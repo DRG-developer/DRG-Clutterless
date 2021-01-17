@@ -1,6 +1,5 @@
 <strings>
     <string id="AppName">DRG Clutterless</string>    
-    <string id="twelvehclock">use the twelve hour clock</string>  
     
       
     <string id="colHour">hour color</string>    
@@ -63,6 +62,7 @@
 	
 	<string id="bottomComplication">what to show at the bottom half? (config at bottom of page)</string>
 	<string id="graph">a graph</string>
+	<string id="graphStyleFilled">make the graph filled</string>
 	<string id="complications"> 4 datafields</string>
 	<string id="halfmoon"> a half moon shaped progress bar )</string>
 
@@ -87,6 +87,17 @@
 	<string id="fourHour">every 4 hours</string>
 	<string id="fiveHour">every 5 hours</string>
     
+	<string id="minuteStyleDate">have both date and minutes</string>
+	<string id="minuteStyleBigFat">fat minute font, no date</string>
+	<string id="minuteStyleBig">regular minute font, no date</string>
+	
+	<string id="hourStyleMediumFat">medium font, fat (minute font follows this size)</string>
+	<string id="hourStyleBiggerFat">bigger font, fat</string>
+	<string id="hourStyleBiggestFat">biggest font, fat</string>
+	<string id="hourStyleMedium">medium font</string>
+	<string id="hourStyleBigger">bigger font </string>
+	<string id="hourStyleBiggest">biggest font</string>
+	
     
      
 </strings>

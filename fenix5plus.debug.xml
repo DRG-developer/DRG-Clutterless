@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/dexter/dev-env/garmin/DRG-Clutterless/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="3" lineNum="11" pc="268435456" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="3" lineNum="12" pc="268435460" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="3" lineNum="13" pc="268435482" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="3" lineNum="14" pc="268435521" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="4" lineNum="18" pc="268435538" symbol="onTemporalEvent"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="4" lineNum="20" pc="268435542" symbol="onTemporalEvent"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="5" lineNum="24" pc="268435555" symbol="getWeather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="5" lineNum="25" pc="268435559" symbol="getWeather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="5" lineNum="27" pc="268435559" symbol="getWeather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="5" lineNum="28" pc="268435590" symbol="getWeather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="5" lineNum="31" pc="268435621" symbol="getWeather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="6" lineNum="61" pc="268435796" symbol="onReceiveWeatherdata"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="6" lineNum="62" pc="268435800" symbol="onReceiveWeatherdata"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="6" lineNum="63" pc="268435811" symbol="onReceiveWeatherdata"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="6" lineNum="64" pc="268435829" symbol="onReceiveWeatherdata"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="6" lineNum="66" pc="268435864" symbol="onReceiveWeatherdata"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="6" lineNum="77" pc="268436106" symbol="onReceiveWeatherdata"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/backgroundService.mc" id="6" lineNum="86" pc="268436265" symbol="onReceiveWeatherdata"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="8" lineNum="13" pc="268436308" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="8" lineNum="14" pc="268436312" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="9" lineNum="17" pc="268436331" symbol="onStart"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="10" lineNum="20" pc="268436336" symbol="onStop"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="11" lineNum="24" pc="268436341" symbol="getInitialView"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="11" lineNum="25" pc="268436345" symbol="getInitialView"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="11" lineNum="26" pc="268436375" symbol="getInitialView"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="11" lineNum="27" pc="268436391" symbol="getInitialView"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="12" lineNum="31" pc="268436415" symbol="onSettingsChanged"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="12" lineNum="32" pc="268436419" symbol="onSettingsChanged"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="12" lineNum="33" pc="268436437" symbol="onSettingsChanged"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="12" lineNum="34" pc="268436453" symbol="onSettingsChanged"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="13" lineNum="37" pc="268436455" symbol="onBackgroundData"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="13" lineNum="39" pc="268436459" symbol="onBackgroundData"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="13" lineNum="40" pc="268436476" symbol="onBackgroundData"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="13" lineNum="41" pc="268436514" symbol="onBackgroundData"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="13" lineNum="42" pc="268436530" symbol="onBackgroundData"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="13" lineNum="43" pc="268436547" symbol="onBackgroundData"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="13" lineNum="45" pc="268436569" symbol="onBackgroundData"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="14" lineNum="49" pc="268436601" symbol="getServiceDelegate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessApp.mc" id="14" lineNum="50" pc="268436605" symbol="getServiceDelegate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="16" lineNum="18" pc="268436682" symbol="get_data_type"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="16" lineNum="19" pc="268436686" symbol="get_data_type"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="22" pc="268436693" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="23" pc="268436697" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="24" pc="268436708" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="25" pc="268436751" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="27" pc="268436787" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="28" pc="268436798" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="29" pc="268436841" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="31" pc="268436877" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="32" pc="268436888" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="33" pc="268436931" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="35" pc="268436967" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="36" pc="268436978" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="37" pc="268437021" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="17" lineNum="40" pc="268437057" symbol="get_data_interator"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="44" pc="268437060" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="45" pc="268437064" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="46" pc="268437075" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="47" pc="268437081" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="48" pc="268437092" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="49" pc="268437124" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="51" pc="268437137" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="52" pc="268437143" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="53" pc="268437154" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="54" pc="268437166" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="55" pc="268437177" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="56" pc="268437209" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="18" lineNum="58" pc="268437228" symbol="parse_data_value"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="62" pc="268437235" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="63" pc="268437239" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="65" pc="268437262" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="66" pc="268437269" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="67" pc="268437288" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="68" pc="268437307" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="69" pc="268437314" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="70" pc="268437333" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="73" pc="268437352" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="74" pc="268437365" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="76" pc="268437380" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="77" pc="268437387" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="78" pc="268437413" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="79" pc="268437461" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="82" pc="268437465" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="83" pc="268437478" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="85" pc="268437491" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="86" pc="268437508" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="87" pc="268437534" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="88" pc="268437582" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="95" pc="268437586" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="97" pc="268437602" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="98" pc="268437606" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="99" pc="268437610" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="101" pc="268437617" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="103" pc="268437624" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="104" pc="268437631" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="105" pc="268437638" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="106" pc="268437645" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="108" pc="268437652" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="109" pc="268437665" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="110" pc="268437672" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="111" pc="268437682" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="113" pc="268437689" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="114" pc="268437699" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="115" pc="268437706" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="116" pc="268437723" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="117" pc="268437746" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="119" pc="268437753" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="123" pc="268437759" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="124" pc="268437776" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="127" pc="268437802" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="128" pc="268437817" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="130" pc="268437830" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="131" pc="268437837" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="132" pc="268437847" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="133" pc="268437855" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="134" pc="268437862" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="135" pc="268437870" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="137" pc="268437877" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="139" pc="268437884" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="140" pc="268437894" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="141" pc="268437901" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="142" pc="268437918" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="144" pc="268437941" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="146" pc="268437948" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="151" pc="268438050" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="154" pc="268438060" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="158" pc="268438083" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="160" pc="268438109" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="161" pc="268438116" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="166" pc="268438219" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="168" pc="268438223" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="169" pc="268438240" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="19" lineNum="171" pc="268438258" symbol="draw"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="21" lineNum="287" pc="268438271" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="21" lineNum="288" pc="268438275" symbol="initialize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="292" pc="268438294" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="293" pc="268438298" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="294" pc="268438321" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="295" pc="268438338" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="296" pc="268438362" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="297" pc="268438386" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="298" pc="268438410" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="299" pc="268438434" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="300" pc="268438458" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="301" pc="268438482" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="302" pc="268438506" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="303" pc="268438530" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="304" pc="268438554" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="305" pc="268438578" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="306" pc="268438613" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="307" pc="268438648" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="308" pc="268438683" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="309" pc="268438718" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="310" pc="268438753" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="311" pc="268438775" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="312" pc="268438889" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="22" lineNum="316" pc="268439071" symbol="getSettings"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="320" pc="268439075" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="322" pc="268439079" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="323" pc="268439090" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="325" pc="268439110" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="326" pc="268439121" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="327" pc="268439132" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="328" pc="268439149" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="330" pc="268439169" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="332" pc="268439189" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="333" pc="268439200" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="335" pc="268439220" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="336" pc="268439231" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="338" pc="268439251" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="339" pc="268439262" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="340" pc="268439305" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="342" pc="268439325" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="345" pc="268439345" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="346" pc="268439356" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="348" pc="268439376" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="349" pc="268439387" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="350" pc="268439404" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="352" pc="268439424" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="355" pc="268439444" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="356" pc="268439455" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="358" pc="268439475" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="359" pc="268439486" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="360" pc="268439506" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="361" pc="268439517" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="362" pc="268439537" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="363" pc="268439548" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="364" pc="268439565" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="366" pc="268439585" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="370" pc="268439608" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="371" pc="268439619" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="372" pc="268439636" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="374" pc="268439656" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="376" pc="268439676" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="377" pc="268439687" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="378" pc="268439707" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="379" pc="268439718" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="380" pc="268439761" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="382" pc="268439781" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="384" pc="268439801" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="385" pc="268439812" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="386" pc="268439835" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="388" pc="268439852" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="389" pc="268439895" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="390" pc="268439972" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="393" pc="268439992" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="396" pc="268440015" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="397" pc="268440026" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="398" pc="268440052" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="399" pc="268440066" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="400" pc="268440077" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="23" lineNum="402" pc="268440103" symbol="getField"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="407" pc="268440121" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="408" pc="268440125" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="409" pc="268440148" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="411" pc="268440167" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="412" pc="268440179" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="413" pc="268440198" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="414" pc="268440217" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="417" pc="268440239" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="418" pc="268440256" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="421" pc="268440279" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="24" lineNum="422" pc="268440322" symbol="onLayout"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="425" pc="268440366" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="426" pc="268440370" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="427" pc="268440395" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="428" pc="268440407" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="429" pc="268440430" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="432" pc="268440453" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="433" pc="268440467" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="438" pc="268440484" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="439" pc="268440498" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="440" pc="268440523" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="441" pc="268440554" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="444" pc="268440607" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="445" pc="268440621" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="446" pc="268440635" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="447" pc="268440649" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="448" pc="268440663" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="25" lineNum="449" pc="268440677" symbol="onUpdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="26" lineNum="454" pc="268440698" symbol="drawComplication1"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="26" lineNum="455" pc="268440702" symbol="drawComplication1"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="26" lineNum="456" pc="268440721" symbol="drawComplication1"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="26" lineNum="457" pc="268440780" symbol="drawComplication1"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="26" lineNum="458" pc="268440839" symbol="drawComplication1"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="27" lineNum="461" pc="268440899" symbol="drawComplication2"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="27" lineNum="462" pc="268440903" symbol="drawComplication2"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="27" lineNum="463" pc="268440922" symbol="drawComplication2"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="27" lineNum="464" pc="268440975" symbol="drawComplication2"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="27" lineNum="465" pc="268441028" symbol="drawComplication2"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="28" lineNum="468" pc="268441082" symbol="drawComplication3"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="28" lineNum="469" pc="268441086" symbol="drawComplication3"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="28" lineNum="470" pc="268441105" symbol="drawComplication3"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="28" lineNum="471" pc="268441164" symbol="drawComplication3"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="28" lineNum="472" pc="268441223" symbol="drawComplication3"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="29" lineNum="477" pc="268441283" symbol="drawCircle"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="29" lineNum="478" pc="268441287" symbol="drawCircle"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="29" lineNum="479" pc="268441306" symbol="drawCircle"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="29" lineNum="480" pc="268441334" symbol="drawCircle"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="29" lineNum="481" pc="268441352" symbol="drawCircle"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="489" pc="268441429" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="490" pc="268441433" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="492" pc="268441433" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="493" pc="268441477" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="494" pc="268441502" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="495" pc="268441571" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="496" pc="268441582" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="498" pc="268441603" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="499" pc="268441665" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="30" lineNum="500" pc="268441690" symbol="drawTime"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="31" lineNum="503" pc="268441770" symbol="testdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="31" lineNum="504" pc="268441774" symbol="testdate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="510" pc="268441837" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="515" pc="268441841" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="516" pc="268441872" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="516" pc="268441878" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="517" pc="268441884" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="517" pc="268441900" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="520" pc="268441906" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="521" pc="268441926" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="522" pc="268441932" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="523" pc="268441952" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="32" lineNum="525" pc="268441958" symbol="Authorize"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="33" lineNum="541" pc="268441962" symbol="HeartRate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="33" lineNum="542" pc="268441966" symbol="HeartRate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="33" lineNum="543" pc="268441995" symbol="HeartRate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="33" lineNum="544" pc="268442008" symbol="HeartRate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="33" lineNum="546" pc="268442056" symbol="HeartRate"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="34" lineNum="550" pc="268442106" symbol="Calories"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="34" lineNum="551" pc="268442110" symbol="Calories"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="35" lineNum="555" pc="268442166" symbol="Steps"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="35" lineNum="556" pc="268442170" symbol="Steps"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="560" pc="268442248" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="561" pc="268442252" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="562" pc="268442275" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="563" pc="268442282" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="564" pc="268442351" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="565" pc="268442374" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="569" pc="268442390" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="571" pc="268442397" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="573" pc="268442432" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="577" pc="268442445" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="36" lineNum="580" pc="268442452" symbol="Altitude"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="37" lineNum="584" pc="268442505" symbol="Messages"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="37" lineNum="585" pc="268442509" symbol="Messages"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="38" lineNum="589" pc="268442565" symbol="Stairs"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="38" lineNum="590" pc="268442569" symbol="Stairs"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="39" lineNum="594" pc="268442647" symbol="Alarmcount"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="39" lineNum="595" pc="268442651" symbol="Alarmcount"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="40" lineNum="600" pc="268442707" symbol="PhoneConn"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="40" lineNum="602" pc="268442711" symbol="PhoneConn"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="40" lineNum="603" pc="268442728" symbol="PhoneConn"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="40" lineNum="605" pc="268442777" symbol="PhoneConn"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="41" lineNum="610" pc="268442824" symbol="ActiveMinutesDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="41" lineNum="611" pc="268442828" symbol="ActiveMinutesDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="42" lineNum="615" pc="268442899" symbol="ActiveMinutesWeek"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="42" lineNum="616" pc="268442903" symbol="ActiveMinutesWeek"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="43" lineNum="620" pc="268442996" symbol="Battery"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="43" lineNum="621" pc="268443000" symbol="Battery"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="44" lineNum="624" pc="268443106" symbol="DistanceWeek"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="628" pc="268443111" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="629" pc="268443115" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="630" pc="268443115" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="631" pc="268443146" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="632" pc="268443159" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="634" pc="268443175" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="637" pc="268443194" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="638" pc="268443226" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="640" pc="268443236" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="641" pc="268443255" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="45" lineNum="644" pc="268443262" symbol="DistanceDay"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="647" pc="268443338" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="648" pc="268443342" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="649" pc="268443377" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="650" pc="268443412" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="651" pc="268443444" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="653" pc="268443481" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="656" pc="268443503" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="46" lineNum="658" pc="268443579" symbol="DeviceTemp"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="661" pc="268443613" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="662" pc="268443617" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="663" pc="268443640" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="665" pc="268443657" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="666" pc="268443664" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="667" pc="268443677" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="668" pc="268443711" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="670" pc="268443748" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="671" pc="268443771" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="672" pc="268443778" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="673" pc="268443791" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="674" pc="268443825" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="679" pc="268443862" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="680" pc="268443880" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="681" pc="268443887" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="47" lineNum="685" pc="268443936" symbol="Weather"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="48" lineNum="690" pc="268444004" symbol="EmptyF"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="48" lineNum="691" pc="268444008" symbol="EmptyF"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="49" lineNum="695" pc="268444055" symbol="Invalid"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="49" lineNum="696" pc="268444059" symbol="Invalid"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="699" pc="268444106" symbol="Premium"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="700" pc="268444110" symbol="Premium"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="266" pc="268444229" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="267" pc="268444253" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="268" pc="268444277" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="270" pc="268444301" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="271" pc="268444325" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="273" pc="268444439" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="274" pc="268444618" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="279" pc="268444661" symbol="&lt;init&gt;"/>
+        <entry filename="/home/dexter/dev-env/garmin/DRG-Clutterless/source/ClutterlessView.mc" id="50" lineNum="280" pc="268444681" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="53" symbol="updateFreq"/>
+        <entry id="123" method="true" symbol="testdate"/>
+        <entry field="true" id="81" symbol="twoHour"/>
+        <entry field="true" id="23" symbol="inheritWeather"/>
+        <entry field="true" id="66" symbol="Empty"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="28" symbol="fiveHour"/>
+        <entry field="true" id="87" method="true" symbol="Altitude"/>
+        <entry field="true" id="8388936" method="true" symbol="info"/>
+        <entry field="true" id="48" symbol="threeHour"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="134" method="true" symbol="Premium"/>
+        <entry field="true" id="56" symbol="colBg"/>
+        <entry field="true" id="88" symbol="colBG"/>
+        <entry field="true" id="54" method="true" symbol="Steps"/>
+        <entry field="true" id="69" symbol="fiveMin"/>
+        <entry field="true" id="72" symbol="green"/>
+        <entry id="117" method="true" symbol="getSettings"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="113" symbol="regfont"/>
+        <entry field="true" id="109" symbol="monthOfYearArr"/>
+        <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+        <entry id="133" method="true" symbol="Invalid"/>
+        <entry field="true" id="116" symbol="scrHeight"/>
+        <entry field="true" id="39" symbol="twelvehclock"/>
+        <entry id="127" method="true" symbol="ActiveMinutesDay"/>
+        <entry field="true" id="67" symbol="gray"/>
+        <entry field="true" id="101" symbol="manualLocY"/>
+        <entry field="true" id="100" symbol="manualLocX"/>
+        <entry id="8389800" method="true" symbol="getTemperatureHistory"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="58" symbol="Bluetooth"/>
+        <entry id="128" method="true" symbol="ActiveMinutesWeek"/>
+        <entry id="125" method="true" symbol="Alarmcount"/>
+        <entry id="132" method="true" symbol="EmptyF"/>
+        <entry field="true" id="94" symbol="BtInd"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8389801" method="true" symbol="getPressureHistory"/>
+        <entry field="true" id="99" symbol="BattStats"/>
+        <entry field="true" id="57" method="true" symbol="HeartRate"/>
+        <entry field="true" id="82" symbol="blue"/>
+        <entry field="true" id="110" symbol="hourfont"/>
+        <entry field="true" id="73" symbol="complications"/>
+        <entry id="122" method="true" symbol="drawTime"/>
+        <entry field="true" id="70" method="true" symbol="Stairs"/>
+        <entry field="true" id="64" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389594" symbol="headers"/>
+        <entry id="137" method="true" symbol="parse_data_value"/>
+        <entry field="true" id="98" symbol="twlveclock"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="42" symbol="lightgray"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8390147" object="true" symbol="ServiceDelegate"/>
+        <entry field="true" id="40" symbol="colLine"/>
+        <entry field="true" id="8388947" method="true" symbol="value"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="85" symbol="fieldBottomRight"/>
+        <entry field="true" id="52" symbol="devicetemp"/>
+        <entry field="true" id="62" symbol="colDate"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry id="16" method="true" symbol="onReceiveWeatherdata"/>
+        <entry field="true" id="29" symbol="oneAndAHalfHour"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="105" symbol="bottomComplicaton"/>
+        <entry field="true" id="60" symbol="yellow"/>
+        <entry id="130" method="true" symbol="DistanceDay"/>
+        <entry id="124" method="true" symbol="Authorize"/>
+        <entry id="8389178" method="true" symbol="drawCircle"/>
+        <entry field="true" id="8391489" method="true" module="true" symbol="Weather"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="47" method="true" symbol="Messages"/>
+        <entry field="true" id="102" symbol="methodLeft"/>
+        <entry field="true" id="41" symbol="anotherblue"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="18" module="true" symbol="Menus"/>
+        <entry field="true" id="107" symbol="methodCircle"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="46" symbol="daydistance"/>
+        <entry field="true" id="108" symbol="dayOfWeekArr"/>
+        <entry field="true" id="8389869" symbol="activeMinutesWeek"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="126" method="true" symbol="PhoneConn"/>
+        <entry field="true" id="97" symbol="iconfont"/>
+        <entry field="true" id="63" symbol="fifteenMin"/>
+        <entry field="true" id="92" symbol="colLINE"/>
+        <entry field="true" id="89" symbol="colDATE"/>
+        <entry field="true" id="36" symbol="white"/>
+        <entry id="12" object="true" symbol="ClutterlessView"/>
+        <entry id="8389802" method="true" symbol="getElevationHistory"/>
+        <entry field="true" id="59" symbol="anothergreen"/>
+        <entry field="true" id="76" symbol="black"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="112" symbol="weatherfont"/>
+        <entry field="true" id="75" symbol="zeroformat"/>
+        <entry field="true" id="103" symbol="methodCenter"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390170" method="true" symbol="onBackgroundData"/>
+        <entry id="8389809" symbol="order"/>
+        <entry field="true" id="8389870" symbol="activeMinutesDay"/>
+        <entry field="true" id="86" symbol="showdate"/>
+        <entry field="true" id="33" symbol="shortdate"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry field="true" id="96" symbol="barWidth"/>
+        <entry field="true" id="79" symbol="orange"/>
+        <entry field="true" id="61" symbol="bottomComplication"/>
+        <entry id="121" method="true" symbol="drawComplication3"/>
+        <entry id="120" method="true" symbol="drawComplication2"/>
+        <entry id="119" method="true" symbol="drawComplication1"/>
+        <entry field="true" id="71" symbol="ActiveMinWeek"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry field="true" id="111" symbol="minutefont"/>
+        <entry field="true" id="34" symbol="red"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="84" symbol="venuAlwaysOn"/>
+        <entry field="true" id="11" object="true" symbol="graph"/>
+        <entry field="true" id="24" symbol="key2"/>
+        <entry field="true" id="50" symbol="yetanotherblue"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="32" symbol="colDatafield"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="13" symbol="counter"/>
+        <entry field="true" id="19" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="9" object="true" symbol="ClutterlessServiceDelegate"/>
+        <entry field="true" id="26" symbol="colHour"/>
+        <entry field="true" id="45" symbol="fourtyFiveMin"/>
+        <entry field="true" id="115" symbol="scrWidth"/>
+        <entry field="true" id="27" symbol="fieldTopLeft"/>
+        <entry field="true" id="21" symbol="Minute"/>
+        <entry id="131" method="true" symbol="DeviceTemp"/>
+        <entry field="true" id="83" symbol="weekdistance"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="104" symbol="methodRight"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="37" method="true" symbol="Battery"/>
+        <entry id="8390146" module="true" symbol="Background"/>
+        <entry field="true" id="68" symbol="ActiveMinDay"/>
+        <entry field="true" id="35" symbol="battDays"/>
+        <entry field="true" id="8389872" symbol="floorsClimbed"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="74" symbol="halfmoon"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="30" symbol="colMin"/>
+        <entry id="8389808" symbol="period"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="136" method="true" symbol="get_data_interator"/>
+        <entry field="true" id="55" symbol="tenMin"/>
+        <entry field="true" id="80" symbol="Field5"/>
+        <entry field="true" id="43" symbol="thirtyMin"/>
+        <entry field="true" id="93" symbol="settings"/>
+        <entry field="true" id="31" symbol="fieldBottomLeft"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="114" symbol="scrRadius"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="14" symbol="unit"/>
+        <entry id="15" method="true" symbol="getWeather"/>
+        <entry field="true" id="20" symbol="Hour"/>
+        <entry id="8389781" module="true" symbol="SensorHistory"/>
+        <entry id="129" method="true" symbol="DistanceWeek"/>
+        <entry field="true" id="25" symbol="BtIndicator"/>
+        <entry field="true" id="106" symbol="methodBottomData"/>
+        <entry field="true" id="51" symbol="fourHour"/>
+        <entry field="true" id="65" symbol="oneHour"/>
+        <entry id="17" module="true" symbol="Layouts"/>
+        <entry field="true" id="90" symbol="colHOUR"/>
+        <entry field="true" id="78" method="true" symbol="Calories"/>
+        <entry id="10" object="true" symbol="ClutterlessWatch"/>
+        <entry field="true" id="22" symbol="Icon"/>
+        <entry field="true" id="38" symbol="weather"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="77" symbol="fieldTopRight"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="135" method="true" symbol="get_data_type"/>
+        <entry id="118" method="true" symbol="getField"/>
+        <entry field="true" id="49" symbol="twoHalfHour"/>
+        <entry field="true" id="91" symbol="colMIN"/>
+        <entry field="true" id="95" symbol="barX"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389023" object="true" symbol="View"/>
+        <entry field="true" id="44" symbol="AlarmCount"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435795" name="lat" stackId="1" startPc="268435559"/>
+        <entry endPc="268435795" name="lon" stackId="2" startPc="268435559"/>
+        <entry endPc="268436307" name="result" stackId="4" startPc="268435864"/>
+        <entry endPc="268436307" name="weatherlookuptable" stackId="3" startPc="268435864"/>
+        <entry arg="true" endPc="268436308" name="response" stackId="1" startPc="268435796"/>
+        <entry arg="true" endPc="268436308" name="data" stackId="2" startPc="268435796"/>
+        <entry arg="true" endPc="268436336" name="state" stackId="1" startPc="268436331"/>
+        <entry arg="true" endPc="268436341" name="state" stackId="1" startPc="268436336"/>
+        <entry arg="true" endPc="268436601" name="data" stackId="1" startPc="268436455"/>
+        <entry arg="true" endPc="268437060" name="type" stackId="1" startPc="268436693"/>
+        <entry arg="true" endPc="268437235" name="type" stackId="1" startPc="268437060"/>
+        <entry arg="true" endPc="268437235" name="value" stackId="2" startPc="268437060"/>
+        <entry endPc="268437750" name="yStep" stackId="23" startPc="268437689"/>
+        <entry endPc="268437750" name="historyDifPers" stackId="22" startPc="268437689"/>
+        <entry endPc="268438054" name="yStep" stackId="27" startPc="268437884"/>
+        <entry endPc="268438054" name="historyDifPers" stackId="26" startPc="268437884"/>
+        <entry endPc="268438070" name="sample" stackId="25" startPc="268437817"/>
+        <entry endPc="268438083" name="i" stackId="24" startPc="268437817"/>
+        <entry endPc="268438267" name="graphType" stackId="16" startPc="268437239"/>
+        <entry endPc="268438267" name="graph_width" stackId="7" startPc="268437239"/>
+        <entry endPc="268438267" name="step_min" stackId="20" startPc="268437239"/>
+        <entry endPc="268438267" name="step_max" stackId="19" startPc="268437239"/>
+        <entry endPc="268438267" name="targetdatatype" stackId="8" startPc="268437239"/>
+        <entry endPc="268438267" name="lastyStep" stackId="18" startPc="268437239"/>
+        <entry endPc="268438267" name="HistoryPresent" stackId="15" startPc="268437239"/>
+        <entry endPc="268438267" name="graph_height" stackId="6" startPc="268437239"/>
+        <entry endPc="268438267" name="position_y" stackId="3" startPc="268437239"/>
+        <entry endPc="268438267" name="value_label" stackId="28" startPc="268437239"/>
+        <entry endPc="268438267" name="position_x" stackId="4" startPc="268437239"/>
+        <entry endPc="268438267" name="xStep" stackId="13" startPc="268437239"/>
+        <entry endPc="268438267" name="height" stackId="14" startPc="268437239"/>
+        <entry endPc="268438267" name="labelll" stackId="29" startPc="268437239"/>
+        <entry endPc="268438267" name="smallDigitalFont" stackId="5" startPc="268437239"/>
+        <entry endPc="268438267" name="minMaxDiff" stackId="12" startPc="268437239"/>
+        <entry endPc="268438267" name="latest_sample" stackId="21" startPc="268437239"/>
+        <entry endPc="268438267" name="HistoryIter" stackId="9" startPc="268437239"/>
+        <entry endPc="268438267" name="primaryColor" stackId="2" startPc="268437239"/>
+        <entry endPc="268438267" name="HistoryNew" stackId="17" startPc="268437239"/>
+        <entry endPc="268438267" name="HistoryMin" stackId="10" startPc="268437239"/>
+        <entry endPc="268438267" name="HistoryMax" stackId="11" startPc="268437239"/>
+        <entry arg="true" endPc="268438268" name="dc" stackId="1" startPc="268437235"/>
+        <entry endPc="268439074" name="app" stackId="1" startPc="268438298"/>
+        <entry arg="true" endPc="268440121" name="values" stackId="1" startPc="268439075"/>
+        <entry arg="true" endPc="268440366" name="dc" stackId="1" startPc="268440121"/>
+        <entry arg="true" endPc="268440698" name="dc" stackId="1" startPc="268440366"/>
+        <entry endPc="268440898" name="data" stackId="2" startPc="268440702"/>
+        <entry arg="true" endPc="268440899" name="dc" stackId="1" startPc="268440698"/>
+        <entry endPc="268441081" name="data" stackId="2" startPc="268440903"/>
+        <entry arg="true" endPc="268441082" name="dc" stackId="1" startPc="268440899"/>
+        <entry endPc="268441282" name="data" stackId="2" startPc="268441086"/>
+        <entry arg="true" endPc="268441283" name="dc" stackId="1" startPc="268441082"/>
+        <entry endPc="268441428" name="i" stackId="4" startPc="268441352"/>
+        <entry endPc="268441428" name="perc" stackId="3" startPc="268441287"/>
+        <entry endPc="268441428" name="data" stackId="2" startPc="268441287"/>
+        <entry arg="true" endPc="268441429" name="dc" stackId="1" startPc="268441283"/>
+        <entry endPc="268441769" name="tmp" stackId="3" startPc="268441433"/>
+        <entry endPc="268441769" name="time" stackId="2" startPc="268441433"/>
+        <entry arg="true" endPc="268441770" name="dc" stackId="1" startPc="268441429"/>
+        <entry arg="true" endPc="268441837" name="dc" stackId="1" startPc="268441770"/>
+        <entry endPc="268441961" name="tmpString" stackId="1" startPc="268441841"/>
+        <entry endPc="268442504" name="value" stackId="1" startPc="268442252"/>
+        <entry endPc="268443337" name="unit" stackId="1" startPc="268443115"/>
+        <entry endPc="268444003" name="weatherdata" stackId="3" startPc="268443617"/>
+        <entry endPc="268444003" name="location" stackId="1" startPc="268443617"/>
+        <entry endPc="268444003" name="app" stackId="2" startPc="268443617"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="background_method" class="ClutterlessServiceDelegate" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="background_method" class="ClutterlessServiceDelegate" module="globals" symbol="onTemporalEvent"/>
+        <annotationEntry annotation="background_method" class="ClutterlessServiceDelegate" module="globals" symbol="getWeather"/>
+        <annotationEntry annotation="background_method" class="ClutterlessServiceDelegate" module="globals" symbol="onReceiveWeatherdata"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="166" parentId="globals" symbolId="ClutterlessWatch" type="class"/>
+        <dataEntry offset="277" parentId="globals" symbolId="ClutterlessServiceDelegate" type="class"/>
+        <dataEntry offset="1100" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="1179" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="1218" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="1249" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="1320" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="1351" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="1382" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="1933" parentId="globals" symbolId="ClutterlessView" type="class"/>
+        <dataEntry offset="2484" parentId="globals" symbolId="graph" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="ClutterlessServiceDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onTemporalEvent" parent="ClutterlessServiceDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getWeather" parent="ClutterlessServiceDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onReceiveWeatherdata" parent="ClutterlessServiceDelegate">
+            <param id="response"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="ClutterlessWatch">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="ClutterlessWatch">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="ClutterlessWatch">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="ClutterlessWatch">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSettingsChanged" parent="ClutterlessWatch">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onBackgroundData" parent="ClutterlessWatch">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getServiceDelegate" parent="ClutterlessWatch">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="get_data_type" parent="graph">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="get_data_interator" parent="graph">
+            <param id="type"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="parse_data_value" parent="graph">
+            <param id="type"/>
+            <param id="value"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="graph">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getSettings" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getField" parent="ClutterlessView">
+            <param id="values"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawComplication1" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawComplication2" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawComplication3" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawCircle" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawTime" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="testdate" parent="ClutterlessView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Authorize" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="HeartRate" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Calories" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Steps" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Altitude" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Messages" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Stairs" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Alarmcount" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="PhoneConn" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="ActiveMinutesDay" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="ActiveMinutesWeek" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Battery" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="DistanceWeek" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="DistanceDay" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="DeviceTemp" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Weather" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="EmptyF" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Invalid" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="Premium" parent="ClutterlessView">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

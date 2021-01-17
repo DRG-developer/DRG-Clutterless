@@ -1,9 +1,16 @@
 <resources>
-    <fonts>
-        <font id="Hour" antialias="true" filename="fonts/90px-ariel-bold.fnt" filter="0123456789" />
-        <font id="Minute" antialias="true" filename="fonts/90px-ariel.fnt" filter="0123456789" />
-        <font id="Icon" antialias="true" filename="fonts/icons.fnt" filter="abcdefghijkm " />
-        <font id="Weather" antialias="true" filename="fonts/weather.fnt" filter="abcdefghi " />
-        <font id="inheritWeather"  filename="fonts/inheritWeather.fnt" filter=" " />
-    </fonts>
+	<fonts>
+		<font id="HourSmall" antialias="true" filename="fonts/80px-sans.fnt" filter="0123456789" />
+		
+		<font id="Hour" antialias="true" filename="fonts/90px-sans.fnt" filter="0123456789" />
+		
+		<font id="HourBig" antialias="true" filename="fonts/100px-sans.fnt" filter="0123456789" />
+		
+		<font id="HourBigger" antialias="true" filename="fonts/110px-sans.fnt" filter="0123456789" />
+		
+		
+		<font id="Icon" antialias="true" filename="fonts/icons.fnt" filter="abcdefghijkm " />
+		<font id="Weather" antialias="true" filename="fonts/weather.fnt" filter="abcdefghi " />
+		<font id="inheritWeather"  filename="fonts/inheritWeather.fnt" filter=" " />
+	</fonts>
 </resources>
